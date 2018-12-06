@@ -21,7 +21,7 @@
 
 <div class="title">Expertise</div>
 
-- <div class="skills"><span class="one">Motion Design</span></div>
+- <div class="skills"><span class="one">[Motion Design](#motion)</span></div>
 - <div class="skills"><span class="one">Conditional Design</span></div> 
 - <div class="skills"><span class="one">Illustration</span></div>
 - <div class="skills"><span class="one">Graphic Design</span></div>
@@ -89,6 +89,7 @@
 
 <div class="project-intro">These drawing are made by a repetition of visual conditions</div>
 
+<a name="motion"/>
 <div class="box-project">
 <div class="project">
 <span class="project-date">2017 - 2018</span>
@@ -105,6 +106,7 @@
 </div>
 </div>
 </div>
+
 
 <div class="firstchapter">Poster & conditional generated visuals</div>
 
