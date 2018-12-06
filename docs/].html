@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>website</title>
+
+
+<style type="text/css">
+/*Amplitude*/
+
+@font-face {
+    font-family: AmplitudeLight;
+    src: url(/Library/Fonts/Amplitude-Light.otf);
+}
+
+@font-face {
+    font-family: AmplitudeBook;
+    src: url(/Library/Fonts/Amplitude-Book.otf);
+}
+
+@font-face {
+    font-family: AmplitudeRegular;
+    src: url(/Library/Fonts/Amplitude-Regular.otf);
+}
+
+@font-face {
+    font-family: AmplitudeMedium;
+    src: url(/Library/Fonts/Amplitude-Medium.otf);
+}
+
+@font-face {
+    font-family: AmplitudeBold;
+    src: url(/Library/Fonts/Amplitude-Bold.otf);
+}
+
+@font-face {
+    font-family: AmplitudeBlack;
+    src: url(/Library/Fonts/Amplitude-Black.otf);
+}
+
+@font-face {
+    font-family: AmplitudeUltra;
+    src: url(/Library/Fonts/Amplitude-Ultra.otf);
+}
+
+
+/*Amplitude Condensed*/
+
+@font-face {
+    font-family: AmplitudeCondensedLight;
+    src: url(/Library/Fonts/Amplitude-Condensed_Light.otf);
+}
+
+@font-face {
+    font-family: AmplitudeCondensedBook;
+    src: url(/Library/Fonts/Amplitude-Condensed_Book.otf);
+}
+
+@font-face {
+    font-family: AmplitudeCondensedRegular;
+    src: url(/Library/Fonts/Amplitude-Condensed_Regular.otf);
+}
+
+@font-face {
+    font-family: AmplitudeCondensedMedium;
+    src: url(/Library/Fonts/Amplitude-Condensed_Medium.otf);
+}
+
+@font-face {
+    font-family: AmplitudeCondensedBold;
+    src: url(/Library/Fonts/Amplitude-Condensed_Bold.otf);
+}
+
+@font-face {
+    font-family: AmplitudeCondensedBlack;
+    src: url(/Library/Fonts/Amplitude-Condensed_Black.otf);
+}
+
+@font-face {
+    font-family: AmplitudeCondensedUltra;
+    src: url(/Library/Fonts/Amplitude-Condensed_Ultra.otf);
+}
+
+/*Amplitude Compressed*/
+
+@font-face {
+    font-family: AmplitudeCompressedLight;
+    src: url(/Library/Fonts/Amplitude-Compressed_Light.otf);
+}
+
+@font-face {
+    font-family: AmplitudeCompressedBook;
+    src: url(/Library/Fonts/Amplitude-Compressed_Book.otf);
+}
+
+@font-face {
+    font-family: AmplitudeCompressedRegular;
+    src: url(/Library/Fonts/Amplitude-Compressed_Regular.otf);
+}
+
+@font-face {
+    font-family: AmplitudeCompressedMedium;
+    src: url(/Library/Fonts/Amplitude-Compressed_Medium.otf);
+}
+
+@font-face {
+    font-family: AmplitudeCompressedBold;
+    src: url(/Library/Fonts/Amplitude-Compressed_Bold.otf);
+}
+
+@font-face {
+    font-family: AmplitudeCompressedBlack;
+    src: url(/Library/Fonts/Amplitude-Compressed_Black.otf);
+}
+
+@font-face {
+    font-family: AmplitudeCompressedUltra;
+    src: url(/Library/Fonts/Amplitude-Compressed_Ultra.otf);
+}
+
+/*Amplitude Extra Compressed*/
+
+@font-face {
+    font-family: AmplitudeExtraompressedLight;
+    src: url(/Library/Fonts/Amplitude-Extra_Compressed_Light.otf);
+}
+
+@font-face {
+    font-family: AmplitudeExtraCompressedBook;
+    src: url(/Library/Fonts/Amplitude-Extra_Compressed_Book.otf);
+}
+
+@font-face {
+    font-family: AmplitudeExtraCompressedRegular;
+    src: url(/Library/Fonts/Amplitude-Extra_Compressed_Regular.otf);
+}
+
+@font-face {
+    font-family: AmplitudeExtraCompressedMedium;
+    src: url(/Library/Fonts/Amplitude-Extra_Compressed_Medium.otf);
+}
+
+@font-face {
+    font-family: AmplitudeExtraCompressedBold;
+    src: url(/Library/Fonts/Amplitude-Extra_Compressed_Bold.otf);
+}
+
+@font-face {
+    font-family: AmplitudeExtraCompressedBlack;
+    src: url(/Library/Fonts/Amplitude-Extra_Compressed_Black.otf);
+}
+
+@font-face {
+    font-family: AmplitudeExtraCompressedUltra;
+    src: url(/Library/Fonts/Amplitude-Extra_Compressed_Ultra.otf);
+}
+
+/*Amplitude Wide*/
+
+@font-face {
+    font-family: AmplitudeWideLight;
+    src: url(/Library/Fonts/Amplitude-Wide_Light.otf);
+}
+
+@font-face {
+    font-family: AmplitudeWideBook;
+    src: url(/Library/Fonts/Amplitude-Wide_Book.otf);
+}
+
+@font-face {
+    font-family: AmplitudeWideRegular;
+    src: url(/Library/Fonts/Amplitude-Wide_Regular.otf);
+}
+
+@font-face {
+    font-family: AmplitudeWideMedium;
+    src: url(/Library/Fonts/Amplitude-Wide_Medium.otf);
+}
+
+@font-face {
+    font-family: AmplitudeWideBold;
+    src: url(/Library/Fonts/Amplitude-Wide_Bold.otf);
+}
+
+@font-face {
+    font-family: AmplitudeWideBlack;
+    src: url(/Library/Fonts/Amplitude-Wide_Black.otf);
+}
+
+@font-face {
+    font-family: AmplitudeWideUltra;
+    src: url(/Library/Fonts/Amplitude-Wide_Ultra.otf);
+} 
+
+/*SUB MASTER*/
+sup {
+  position:relative; 
+  top:0pt; 
+  left:5pt; 
+  font-family:AmplitudeWideMedium;
+  font-size:16pt; 
+}
+/*CHAPTER*/
+.chapter {
+  font-size: 18pt;
+  margin-top:20pt;
+  margin-bottom:0pt; 
+  padding-top:15pt; 
+  text-align: left;
+}
+/*TABLE*/
+table {
+  width:834pt;
+  margin:auto; 
+}
+.keywords {
+  line-height:40pt; 
+}
+.words{
+  font-family: AmplitudeWideBook;
+  font-size: 12pt;
+  margin-left:10pt; 
+  line-height:20pt; 
+}  
+/*KEYWORDS FIRST*/
+.words:first-child{
+  margin-left:20pt; 
+}  
+/*PROJECT*/  
+span.project-date {
+  font-size: 22pt;
+}
+span.project-name {
+  font-size: 22pt;
+}
+span.project-header {
+  font-size: 22pt;
+}
+/*PROJECT 1*/  
+@media only screen and (min-width: 200pt) and (max-width: 600pt) { 
+  .projectfirst,
+  .project {
+    line-height:30pt;
+    padding-bottom:0pt; 
+  }
+  span.project-date {
+    display:block; 
+    text-align:left; 
+    padding-top:10pt; 
+    padding-left:20pt; 
+  }
+  span.project-name {
+    display:block; 
+    width:100%; 
+    text-align:center; 
+    margin-top:2pt; 
+  }
+  span.project-header {
+    display:block; 
+    width:100%; 
+    text-align:center; 
+  }
+}
+/*PROJECT 2*/  
+@media only screen and (min-width: 600pt) and (max-width: 834pt) { 
+  /*PROJECTFIRST*/  
+  .projectfirst,
+  .project {
+    line-height:30pt;
+    padding-top:10pt; 
+    padding-bottom:10pt; 
+  }
+  span.project-date {
+    display:inline; 
+    text-align:left; 
+    padding-left:20pt; 
+  }
+  span.project-name {
+    display:inline; 
+    float:right;
+    margin-right:20pt; 
+  }
+  span.project-header {
+    display:inline; 
+    float:right;
+    margin-right:10pt; 
+  }
+  .chapter {
+    margin-left:20pt; 
+    margin-right:20pt; 
+  }
+}
+/*PROJECT 3*/  
+@media only screen and (min-width: 834pt)  { 
+  .projectfirst,
+  .project {
+    line-height:30pt;
+    padding-top:10pt; 
+    padding-bottom:10pt; 
+    width:834pt;
+    margin:auto; 
+  }
+  span.project-date {
+    display:inline; 
+    text-align:left; 
+    padding-left:20pt; 
+  }
+  span.project-name {
+    display:inline; 
+    float:right;
+    margin-right:20pt; 
+  }
+  span.project-header {
+    display:inline; 
+    float:right;
+    margin-right:10pt; 
+  }
+  .keywords{
+    width:834pt;
+    margin:auto; 
+  } 
+  .chapter {
+    width:790pt;
+    margin:auto; 
+  }
+}
+/*BORDER*/
+@media only screen and (min-width: 320pt) {
+  .cover,
+  .name {
+    border-bottom: 2pt solid darkblue;
+  }
+  .project, 
+  .projectlast {
+    border-top: 2pt solid darkblue;
+  }
+  .chapter {
+    border-top: 1px solid dimgray;
+  }
+  .title {
+    border-top: 1pt solid darkblue;
+  }
+}
+/*COLOR*/
+@media only screen and (min-width: 320pt) {
+  /* CRIMSON */
+  .function,
+  .project-name,
+  sup,
+  table td:nth-child(3),
+  ul li:nth-child(2) .skills span.one,
+  ul li:nth-child(4) .skills span.two,
+  ul li:nth-child(2) .skills span.three {
+    color:crimson; 
+  }
+  /* DARK BLUE */
+  .intro,
+  .website,
+  .name,
+  .project-header,
+  .keywords,
+  .thesis,
+  .chapter,
+  table td:nth-child(2),
+  table td:nth-child(4),
+  ul .skills {
+    color:darkblue; 
+  }
+  /* DIMGRAY */
+  .project-date,
+  .title,
+  span.header,
+  span.about,
+  table td:first-child {
+    color:dimgray; 
+  }
+  /* WHITE */
+  table,
+  .cover,
+  .projectfirst,
+  .project,
+  .keywords {
+    background-color:white; 
+  }
+} 
+/*FONT*/
+@media only screen and (min-width: 320pt) {
+  span.function {
+    display:block; 
+    font-family: AmplitudeWideBlack;
+  }
+  ul li:nth-child(2) .skills span.one,
+  ul li:nth-child(4) .skills span.two,
+  ul li:nth-child(2) .skills span.three {
+    font-family: AmplitudeWideBook;    
+  }
+  .website {
+    font-family: AmplitudeBold;
+  }
+  .name {
+    font-family: AmplitudeWideLight;
+  }
+  .intro,
+  span.project-date {
+    font-family: AmplitudeLight;
+  }
+  span.project-name {
+    font-family: AmplitudeWideBold;
+  }
+  span.project-header {
+    font-family: AmplitudeCompressedBook;
+  }
+  .chapter,
+  .thesis {
+    font-family: AmplitudeWideBook;
+  }
+  span.about,
+  ul .skills {
+    font-family: AmplitudeMedium;
+  }
+}
+/* FUNCTION NAMES 1*/
+@media only screen and (min-width: 200pt) and (max-width: 600pt)  { 
+  ul .function { 
+    display: block;
+  }
+}  
+/* FUNCTION NAMES 2*/
+@media only screen and (min-width: 600pt)  { 
+  ul .function {
+    display: inline;
+  }
+}
+/* SKILLS 1*/
+.title {
+  font-family: AmplitudeWideMedium;
+  font-size: 10pt;
+  line-height:30pt;
+  margin-top:10pt; 
+  text-transform: uppercase;
+}
+.titlelast {
+  font-family: AmplitudeWideMedium;
+  font-size: 10pt;
+  line-height:30pt;
+  margin-top:20pt; 
+  margin-left:20pt; 
+  margin-right:20pt; 
+  text-transform: uppercase;
+}
+ul {
+  list-style: none;
+  text-align:center; 
+  margin:0pt; 
+  margin-top:-5pt;
+  margin-bottom:10pt; 
+  padding:0pt;  
+}
+ul li {
+  display: inline;
+  color:Crimson; 
+  margin:10pt;   
+}
+ul .skills {
+  display: inline;
+  font-size: 16.5pt;
+}
+/* SKILLS 1*/
+@media only screen and (max-width: 670pt) { 
+  .title,
+  .titlelast,
+  ul,
+  ul li,
+  ul .skills {
+    display:none;
+  }
+}
+/* SKILLS 2*/
+@media only screen and (min-width: 670pt) and (max-width: 834pt) { 
+  .title {
+    margin-left:20pt; 
+    margin-right:20pt; 
+  }
+  .titlelast {
+    margin-left:20pt; 
+    margin-right:20pt; 
+  }
+}
+/* SKILLS 3*/
+@media only screen and (min-width: 834pt)  { 
+  .title {
+    width:800pt;
+    margin:auto; 
+  }
+  .titlelast {
+    width:800pt;
+    margin:auto; 
+  }
+}
+/*INTRO*/
+.intro {
+  font-size: 20pt;
+  line-height: 30pt;
+  padding-top:0pt; 
+  padding-bottom:20pt; 
+  text-align: center;
+}
+/* INTRO 1*/
+@media only screen and (min-width: 300pt) and (max-width: 400pt) { 
+  .intro {
+    width:340pt;
+    margin:auto; 
+    font-size:18pt; 
+    line-height:30pt; 
+  }
+}
+/* INTRO 2*/
+@media only screen and (min-width: 400pt) and (max-width: 500pt) { 
+  .intro {
+    width:380pt;
+    margin:auto; 
+  }
+}
+/* INTRO 3*/
+@media only screen and (min-width: 500pt) and (max-width: 600pt) { 
+  .intro {
+    width:460pt;
+    margin:auto; 
+  }
+}
+/* INTRO 4*/
+@media only screen and (min-width: 600pt) and (max-width: 700pt) { 
+  .intro {
+    width:600pt;
+    margin:auto; 
+  }
+}
+/* INTRO 5*/
+@media only screen and (min-width: 700pt) and (max-width: 834pt) { 
+  .intro {
+    width:690pt;
+    margin:auto; 
+  }
+}
+/* INTRO 6*/
+@media only screen and (min-width: 834pt)  { 
+  /*INTRO*/
+  .intro {
+    width:800pt;
+    margin:auto; 
+  }
+}
+/* RESPONSIVE 1*/
+@media only screen and (min-width: 200pt) and (max-width: 600pt) { 
+  /*BODY*/
+  body {
+    margin: 0px 0px;
+  }
+  /*COVER*/
+  .cover{
+    padding-top:30pt; 
+    height:100%; 
+  }
+  /*WEBSITE*/
+  .website {
+    text-transform: uppercase;
+    font-size: 18pt;
+    margin-left:10pt; 
+    margin-right:10pt; 
+    text-align: center;
+  }
+  /*NAME*/
+  .name {
+    font-size: 26pt;
+    line-height:34pt;
+    margin-top:-5pt; 
+    margin-left:20pt; 
+    margin-right:20pt; 
+    padding-bottom:12pt; 
+    text-align: center;
+  }
+  /*FUNCTION*/
+  span.function {
+    display:block; 
+    text-align:center; 
+    font-size: 32pt;
+    line-height:12pt; 
+    margin-top:30pt;
+    margin-bottom:30pt;   
+  }
+  /*CONNTACT*/    
+  .contact {
+    display:none; 
+  }
+  /*ABOUT*/    
+  span.about {
+    font-size: 12pt;
+    line-height:25pt; 
+    text-transform: uppercase;
+    margin:5pt; 
+  }  
+  /*CHAPTER*/
+  .chapter {
+    margin-left:20pt; 
+    margin-right:20pt; 
+  }
+  /*IMAGE BOX*/  
+  .col-container {
+    margin:20pt; 
+    margin-top:10pt; 
+    padding:0pt; 
+  }
+  /*IMAGE*/    
+  img {
+    width:49%;
+    height: auto;
+    margin-bottom:0pt; 
+  }
+  /*IMAGE SMALL*/    
+  span.small img {
+    width:32%;
+    height: auto;
+  }
+  /*IMAGE WIDE*/    
+  img.wide{
+    width: 49%;
+    height: auto;
+  }
+  /*IMAGE FULL*/    
+  span.full img {
+    width: 100%;
+    height: auto;
+  }  
+  /*TABLE */    
+  table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  /*TABLE TR*/    
+  tr {
+    padding-bottom:40pt; 
+  }
+  /*TABLE*/    
+  table {
+    display:none; 
+  }
+  /*THESIS*/    
+  .thesis {
+    display:none; 
+  }
+}
+
+/* RESPONSIVE 2*/
+@media only screen and (min-width: 600pt) and (max-width: 834pt) { 
+  /*BODY*/
+  body {
+    margin: 0px 0px;
+  }
+  /*COVER*/
+  .cover{
+    padding-top:30pt; 
+    height:100%; 
+  }
+  /*WEBSITE*/
+  .website {
+    text-transform: uppercase;
+    font-size: 18pt;
+    margin-left:10pt; 
+    margin-right:10pt; 
+    text-align: center;
+  }
+  /*NAME*/
+  .name {
+    font-size: 30pt;
+    line-height:52pt;
+    margin-top:-15pt; 
+    margin-left:20pt; 
+    margin-right:20pt; 
+    text-align: center;
+  }
+  /*BOX FUNCTION*/
+  .box {
+    width:545pt; 
+    margin: auto;
+  }
+  /*FUNCTION*/
+  span.function {
+    display:inline-block; 
+    text-align:center; 
+    font-size: 31pt;
+    line-height:12pt; 
+    margin: 10pt;
+    margin-top:30pt;
+    margin-bottom:20pt;   
+  }
+  /*CONNTACT*/    
+  .contact {
+    float:center;
+    text-align:center;  
+    margin-bottom:10pt; 
+  }
+  /*ABOUT*/    
+  span.about {
+    font-size: 12pt;
+    line-height:25pt; 
+    text-transform: uppercase;
+    margin:10pt; 
+  } 
+  /*IMAGE BOX*/  
+  .col-container {
+    margin:20pt; 
+    padding:0pt; 
+  }
+  /*IMAGE*/    
+  img {
+    width:24.5%;
+    height: auto;
+    margin-bottom:0pt; 
+  }
+  /*IMAGE SMALL*/    
+  span.small img {
+    width:24.5%;
+    height: auto;
+  }
+  /*IMAGE WIDE*/    
+  img.wide{
+    width: 49%;
+    height: auto;
+  }
+  /*IMAGE FULL*/    
+  span.full img {
+    width: 100%;
+    height: auto;
+  }  
+  /*IMAGE ONE / THIRD*/    
+  img.onethird {
+    width: 33%;
+    height: auto;
+  }
+  /*TABLE */    
+  table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  /*TABLE TR*/    
+  tr {
+    padding-bottom:40pt; 
+  }
+  /*TABLE*/    
+  table {
+    display:none; 
+  }
+  /*THESIS*/    
+  .thesis {
+    display:none; 
+  }
+}
+/* RESPONSIVE 3*/
+@media only screen and (min-width: 834pt)  { 
+  /*BODY*/
+  body {
+    margin: 0px 0px;
+  }
+  /*COVER*/
+  .cover{
+    padding-top:30pt; 
+    padding-bottom:0pt; 
+  }
+  /*WEBSITE*/
+  .website {
+    text-transform: uppercase;
+    font-family: AmplitudeBold;
+    font-size: 18pt;
+    width:834pt;
+    margin:auto; 
+    text-align: center;
+  }
+  /*NAME*/
+  .name {
+    font-size: 30pt;
+    line-height:52pt;
+    width:800pt;
+    margin:auto; 
+    margin-top:-15pt; 
+    text-align: center;
+  }
+  /*BOX FUNCTION*/
+  .box {
+    width:545pt; 
+    margin: auto;
+  }
+  /*FUNCTION*/
+  span.function {
+    display:inline-block; 
+    text-align:center; 
+    font-size: 31pt;
+    line-height:12pt; 
+    margin: 10pt;
+    margin-top:30pt;
+    margin-bottom:20pt;   
+  }
+  /*CONNTACT*/    
+  .contact {
+    float:center;
+    text-align:center;  
+    margin-bottom:10pt; 
+  }
+  /*ABOUT*/    
+  span.about {
+    font-size: 12pt;
+    line-height:25pt; 
+    text-transform: uppercase;
+    margin:10pt; 
+  } 
+  /*PROJECTLAST*/  
+  .projectlast {
+    font-size: 18pt;
+    line-height:30pt;
+    padding-top:10pt; 
+    padding-bottom:10pt; 
+  }
+ /*IMAGE BOX*/  
+  .col-container {
+    width:790pt;
+    margin:auto; 
+    padding-top:20pt; 
+    padding-bottom:20pt; 
+  }
+  /*IMAGE*/    
+  img {
+    width:24.7%;
+    height: auto;
+  }
+  /*IMAGE SMALL*/    
+  span.small img {
+    width:19.5%;
+    height: auto;
+  }
+  /*IMAGE WIDE*/    
+  img.wide{
+    width: 49%;
+    height: auto;
+  }
+  /*IMAGE FULL*/    
+  span.full img {
+    width: 100%;
+    height: auto;
+  } 
+  /*IMAGE ONE / THIRD*/    
+  img.onethird {
+    width: 33%;
+    height: auto;
+  }
+  /*TABLE*/    
+  table {
+    border-collapse: collapse;
+    width:790pt;
+    margin:auto; 
+    margin-top:2pt;
+    margin-bottom: 10pt;
+    font-size:13pt; 
+  }
+  /*TABLE TD*/    
+  td {
+    padding:10pt; 
+  }
+  /*TABLE FIRST CHILD*/    
+  table td:first-child {
+    width:16%; 
+    font-family: AmplitudeLight;
+    text-align:left;
+    text-transform: uppercase;
+    color:DimGray;
+  }
+  /*TABLE SECOND CHILD*/    
+  table td:nth-child(2) {
+    width:23%; 
+    font-family: AmplitudeWideBook;
+    text-align:right;
+  }
+  /*TABLE THIRD CHILD*/    
+  table td:nth-child(3) {
+    width:15%; 
+    font-family:AmplitudeWideMedium;
+    text-align:left;
+    color:Crimson; 
+  }
+  /*TABLE LAST CHILD*/    
+  table td:last-child {
+    width:35%; 
+    font-family: AmplitudeWideBook;
+    text-align:right;
+    color:darkblue; 
+  } 
+  /*THESIS*/    
+  .thesis {
+    font-size: 12pt;
+    line-height: 10pt;
+    width:790pt;
+    margin:auto; 
+    margin-top:10pt;
+    margin-bottom:25pt; 
+    text-align: left;
+  }
+}
+</style>
+
+
+</head>
+
+<body>
+
+<div class="cover">
+<div class="website">Curriculum Vitae</div>
+
+<div class="name">Jasper van Blokland<sup>MA</sup></div>
+
+<div class="box">
+<span class="function">Designer</span>
+<span class="function">Educator</span>
+<span class="function">Programmer</span[]()>
+</div>
+
+<div class="intro">As a designer I am a visualizer and a communicator. In my work, techniques and media are subservient to the concept, the idea, the message and not the other way around. On an esthetic level I am interested in simplifying content into clear images.</div>
+
+<div class="contact">
+<span class="about">© 2018</span>
+<span class="about">info[at]jvb.com</span>
+<span class="about">The Netherlands</span>
+<span class="about">Breda</span>
+<span class="about">06 245 27 440</span>
+</div>
+
+<div class="title">Expertise</></div>
+
+<ul>
+<li><div class="skills"><span class="one">Motion Design</span></div></li>
+<li><div class="skills"><span class="one">Conditional Design</span></div> </li>
+<li><div class="skills"><span class="one">Illustration</span></div></li>
+<li><div class="skills"><span class="one">Graphic Design</span></div></li>
+</ul>
+
+<div class="title">Soft Skills</div>
+
+<ul>
+<li><div class="skills"><span class="two">Team-player</span></div></li>
+<li><div class="skills"><span class="two">Communicator</span></div></li>
+<li><div class="skills"><span class="two">Driven</span></div></li>
+<li><div class="skills"><span class="two">Enthusiastic</span></div></li>
+<li><div class="skills"><span class="two">Problem solver</span></div></li>
+<li><div class="skills"><span class="two">Brainstormer</span></div></li>
+</ul>
+
+<div class="title">Technical skills</div>
+
+<ul>
+<li><div class="skills"><span class="three">Python</span></div> </li>
+<li><div class="skills"><span class="three">Processing</span></div> </li>
+<li><div class="skills"><span class="three">HTML</span></div> </li>
+<li><div class="skills"><span class="three">CSS3</span></div></li>
+<li><div class="skills"><span class="three">SASS</span></div></li>
+<li><div class="skills"><span class="three">Markdown</span></div> </li>
+<li><div class="skills"><span class="three">Adobe</span></div></li>
+<li><div class="skills"><span class="three">Sketch</span></div>
+</div></li>
+</ul>
+
+<div class="projectfirst">
+<span class="project-date">Summer 2018</span>
+<span class="project-name">Conditional illustration</span>
+</div>
+
+<div class="keywords">
+<span class="words">Illustrations</span>
+<span class="words">Conditions</span>
+<span class="words">Meditation</span>
+</div>
+
+<div class="col-container">
+<span class="small"><img src="content/conditinalcity/3.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/4.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/6.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/10.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/11.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/17.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/22.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/23.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/25.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/28.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/29.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/37.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/38.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/39.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/45.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/46.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/47.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/52.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/55.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/56.jpeg"></span>
+</div>
+
+<div class="project">
+<span class="project-date">2017 - 2018</span>
+<span class="project-name">Conditional animation</span>
+<span class="project-header">AKV St Joost - Avans University of applied science</span>
+</div>
+
+<div class="keywords">
+<span class="words">Master Animation</span>
+<span class="words">Illustrations</span>
+<span class="words">Conditions</span>
+<span class="words">Typography</span>
+<span class="words">Movement</span>
+</div>
+
+<div class="chapter">Poster & generated animations</div>
+
+<div class="col-container">
+<img src="content/animat/poster.jpg">
+<img src="content/animat/poster.jpg">
+<img src="content/animat/poster.jpg">
+<img src="content/animat/poster.jpg">
+</div>
+
+<div class="intro">The research in Parametric Animation explores the role of animation and movement in the (graphic) design process. Generated by Parametric Animation, the outcomes are variations of a design which uses principles of animation and movement, intended for Graphic Designers.</div>
+
+<div class="chapter">Process illustrations</div>
+
+<div class="col-container">
+<img class="wide" src="content/animat/2.jpg">
+<img class="wide" src="content/animat/3.jpg">
+</div>
+
+<div class="project">
+<span class="project-date">2015 - 2016</span>
+<span class="project-name">Microplastic</span>
+<span class="project-header">AKV St Joost - Avans University of applied science</span>
+</div>
+
+<div class="keywords">
+<span class="words">Bachelor Graphic Design</span>
+<span class="words">Identity</span>
+<span class="words">Infographic</span>
+</div>
+
+<div class="chapter">Exposition Bachelor Graduation</div>
+
+<div class="col-container">
+<img class="onethird" src="content/sea/expo/0.jpg">
+<img class="onethird" src="content/sea/expo/1.jpg">
+<img class="onethird" src="content/sea/expo/2.jpg">
+</div>
+
+<div class="chapter">Generated animations</div>
+
+<div class="col-container">
+<img src="content/sea/gif/0.gif">
+<img src="content/sea/gif/1.gif">
+<img src="content/sea/gif/2.gif">
+<img src="content/sea/gif/3.gif">
+</div>
+
+<div class="chapter">Maquette experiments</div>
+
+<div class="col-container">
+<img class="wide" src="content/sea/maquette/0.jpg">
+<img class="wide" src="content//sea/maquette/1.jpg">
+</div>
+
+<div class="chapter">Infographic experiments</div>
+
+<div class="col-container">
+<span class="full"><img src="content/sea/5.png"></span>
+</div>
+
+<div class="chapter">Process illustrations</div>
+
+<div class="col-container">
+<img class="onethird" src="content/sea/illustraties/0.jpg">
+<img class="onethird" src="content/sea/illustraties/1.jpg">
+<img class="onethird" src="content/sea/illustraties/2.jpg">
+</div>
+
+<div class="project">
+<span class="project-date">2015 - 2016</span>
+<span class="project-name">Stereotype Scientists</span>
+<span class="project-header">Illustrations for IntroScience NL</span>
+</div>
+
+<div class="keywords">
+<span class="words">Co-Founder Introscience NL</span>
+<span class="words">Identity</span>
+</div>
+
+<div class="col-container">
+<img src="content/scientist/0.jpg">
+<img src="content/scientist/1.jpg">
+<img src="content/scientist/2.jpg">
+<img src="content/scientist/3.jpg">
+</div>
+
+<div class="project">
+<span class="project-date">2015</span>
+<span class="project-name">Chaotic selfportraits</span>
+<span class="project-header">AKV St Joost - Avans University of applied science</span>
+</div>
+
+<div class="keywords">
+<span class="words">Illustration</span>
+<span class="words">Selfportrait</span>
+</div>
+
+<div class="col-container">
+<img src="content/portrait/0.jpg">
+<img src="content/portrait/1.jpg">
+<img src="content/portrait/2.jpg">
+<img src="content/portrait/3.jpg">
+</div>
+
+<div class="project">
+<span class="project-date">Summer 2014</span>
+<span class="project-name">Servies</span>
+</div>
+
+<div class="keywords">
+<span class="words">Illustration</span>
+<span class="words">Experiments</span>
+<span class="words">Shading</span>
+</div>
+
+<div class="col-container">
+<img src="content/italy/0.png">
+<img src="content/italy/1.png">
+<img class="wide" src="content/italy/2.png">
+</div>
+
+<div class="project">
+<span class="project-date">2014 - 2015</span>
+<span class="project-name">Way-finding icons</span>
+<span class="project-header">AKV St Joost - Avans University of applied science</span>
+</div>
+
+<div class="keywords">
+<span class="words">Illustration</span>
+<span class="words">Identity</span>
+<span class="words">WayFinding Delft</span>
+</div>
+
+<div class="chapter">Map experiments</div>
+
+<div class="col-container">
+<img class="wide" src="content/icons/map/0.png">
+<img class="wide" src="content/icons/map/1.png">
+</div>
+
+<div class="chapter">Pictogram illustrations</div>
+
+<div class="col-container">
+<img src="content/icons/0.jpg">
+<img src="content/icons/1.jpg">
+<img src="content/icons/2.jpg">
+<img src="content/icons/3.jpg">
+</div>
+
+<div class="project">
+<span class="project-date">2014 - 2015</span>
+<span class="project-name">Brand proces illustrations</span>
+<span class="project-header">AKV St Joost - Avans University of applied science</span>
+</div>
+
+<div class="keywords">
+<span class="words">Identity</span>
+</div>
+
+<div class="chapter">Brand illustrations</div>
+
+<div class="col-container">
+<span><img src="content/interdutch/0.jpg"></span>
+<span><img src="content/interdutch/1.jpg"></span>
+<span><img src="content/interdutch/2.jpg"></span>
+<span><img src="content/interdutch/3.jpg"></span>
+</div>
+
+<div class="project">
+<span class="project-date">2012 - 2013</span>
+<span class="project-name">Croatia holiday</span>
+</div>
+
+<div class="keywords">
+<span class="words">Holiday</span>
+<span class="words">Meditation</span>
+</div>
+
+<div class="col-container">
+<img src="content/croatia/0.jpg">
+<img src="content/croatia/2.jpg">
+<img src="content/croatia/1.jpg">
+<img src="content/croatia/3.jpg">
+<img src="content/croatia/4.jpeg">
+<img src="content/croatia/5.jpeg">
+<img src="content/croatia/6.jpeg">
+<img src="content/croatia/7.jpeg">
+</div>
+
+<div class="project">
+<span class="project-date">Summer 2012</span>
+<span class="project-name">Ornaments</span>
+</div>
+
+<div class="keywords">
+<span class="words">Holiday</span>
+<span class="words">Meditation</span>
+</div>
+
+<div class="col-container">
+<img src="content/ornaments/0.jpg">
+<img src="content/ornaments/1.jpg">
+<img src="content/ornaments/2.jpg">
+<img src="content/ornaments/3.jpg">
+<img src="content/ornaments/4.jpeg">
+<img src="content/ornaments/5.jpeg">
+<img src="content/ornaments/6.jpeg">
+<img src="content/ornaments/7.jpeg">
+</div>
+
+<div class="project">
+<span class="project-date">Summer 2012</span>
+<span class="project-name">Just some random comics</span>
+</div>
+
+<div class="col-container">
+<img src="content/strip/0.jpg">
+<img src="content/strip/1.jpg">
+<img src="content/strip/2.jpg">
+<img src="content/strip/3.jpg">
+</div>
+
+<div class="project">
+<span class="project-date">2008 - 2009</span>
+<span class="project-name">Responsive web educator</span>
+<span class="project-header">Royal Academy of Art The Hague</span>
+</div>
+
+<div class="col-container">
+<img src="content/educator/0.jpg">
+<img src="content/educator/1.jpg">
+<img src="content/educator/2.jpg">
+<img src="content/educator/3.jpg">
+</div>
+
+<div class="project">
+<span class="project-date">2004 - 2005</span>
+<span class="project-name">Graphs experiments</span>
+<span class="project-header">School for Young Talent</span>
+</div>
+
+<div class="keywords">
+<span class="words">Monoprint</span>
+<span class="words">Black & White</span>
+<span class="words">Leaves</span>
+</div>
+
+<div class="col-container">
+<img src="content/grafiek/0.jpg">
+<img src="content/grafiek/1.jpg">
+<img src="content/grafiek/2.jpg">
+<img src="content/grafiek/3.jpg">
+</div>
+
+<div class="projectlast">
+<div class="titlelast">Education & Achievement</div>
+</div>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>2016 - 2018</td>
+<td>Conditional Animation</td>
+<td>Master</td>
+<td>AKV St Joost - Avans University of applied science</td>
+</tr>
+<tr>
+<td>2013 - 2016</td>
+<td>Generative Design</td>
+<td>Bachelor</td>
+<td>AKV St Joost - Avans University of applied science</td>
+</tr>
+<tr>
+<td>2011 - 2012</td>
+<td>Graphic Design</td>
+<td>Propedeuse</td>
+<td>Royal Academy of Art The Hague</td>
+</tr>
+<tr>
+<td>2003 - 2011</td>
+<td>School for Young Talent</td>
+<td>High School</td>
+<td>Royal Academy of Art The Hague</td>
+</tr>
+<tr>
+<td>2017 Februari 17th</td>
+<td>Training in entrepreneurship</td>
+<td>Certificate</td>
+<td>Starterslift</td>
+</tr>
+<tr>
+<td>2016 - 2017</td>
+<td>Support in entrepreneurship</td>
+<td>Business Support</td>
+<td>Business Atelier</td>
+</tr>
+</tbody>
+</table>
+
+<div class="thesis">Master thesis: &ldquo;Conditional Animation - Designing with animation makes the design proces a lot easier and more efficient&rdquo;</div>
+
+
+
+
+</body>
+
+</html>

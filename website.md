@@ -1,0 +1,397 @@
+<div class="cover">
+<div class="website">Curriculum Vitae</div>
+
+<div class="name">Jasper van Blokland<sup>MA</sup></div>
+
+<div class="box">
+<span class="function">Designer</span>
+<span class="function">Educator</span>
+<span class="function">Programmer</span[]()>
+</div>
+	
+<div class="intro">I am driven to simplify content into clear and understandable images</div>
+
+<div class="contact">
+<span class="about">© 2018</span>
+<span class="about">info[at]jvb.com</span>
+<span class="about">The Netherlands</span>
+<span class="about">Breda</span>
+<span class="about">06 245 27 440</span>
+</div>
+
+<div class="title">Expertise</div>
+
+- <div class="skills"><span class="one">Motion Design</span></div>
+- <div class="skills"><span class="one">Conditional Design</span></div> 
+- <div class="skills"><span class="one">Illustration</span></div>
+- <div class="skills"><span class="one">Graphic Design</span></div>
+
+<div class="title">Soft Skills</div>
+
+- <div class="skills"><span class="two">Team-player</span></div>
+- <div class="skills"><span class="two">Communicator</span></div>
+- <div class="skills"><span class="two">Driven</span></div>
+- <div class="skills"><span class="two">Enthusiastic</span></div>
+- <div class="skills"><span class="two">Problem solver</span></div>
+- <div class="skills"><span class="two">Brainstormer</span></div>
+
+<div class="title">Technical skills</div>
+
+- <div class="skills"><span class="three">Python</span></div> 
+- <div class="skills"><span class="three">Processing</span></div> 
+- <div class="skills"><span class="three">HTML</span></div> 
+- <div class="skills"><span class="three">CSS3</span></div>
+- <div class="skills"><span class="three">SASS</span></div>
+- <div class="skills"><span class="three">Markdown</span></div> 
+- <div class="skills"><span class="three">Adobe</span></div>
+- <div class="skills"><span class="three">Sketch</span></div>
+</div>
+
+<div class="box-project">
+<div class="projectfirst">
+<span class="project-date">Summer 2018</span>
+<span class="project-name">Conditional illustration</span>
+<div class="keywords">
+<span class="words">Illustrations</span>
+<span class="words">Conditions</span>
+<span class="words">Try & Error</span>
+<span class="words">Repitition</span>
+<span class="words">Black & White</span>
+<span class="words">Meditation</span>
+<span class="words">Fineliner</span>
+<span class="words">Skylines</span>
+</div>
+</div>
+</div>
+
+<div class="col-container">
+<span class="small"><img src="content/conditinalcity/3.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/4.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/6.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/10.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/11.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/17.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/22.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/23.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/25.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/28.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/29.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/37.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/38.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/39.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/45.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/46.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/47.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/52.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/55.jpeg"></span>
+<span class="small"><img src="content/conditinalcity/56.jpeg"></span>
+</div>
+
+<div class="project-intro">These drawing are made by a repetition of visual conditions</div>
+
+<div class="box-project">
+<div class="project">
+<span class="project-date">2017 - 2018</span>
+<span class="project-name">Conditional animation</span>
+<span class="project-header">Avans University of applied science</span>
+<div class="keywords">
+<span class="words">Master Animation</span>
+<span class="words">Illustrations</span>
+<span class="words">Conditions</span>
+<span class="words">Efficientie</span>
+<span class="words">Typography</span>
+<span class="words">Movement</span>
+<span class="words">Collaboration</span>
+</div>
+</div>
+</div>
+
+<div class="firstchapter">Poster & conditional generated visuals</div>
+
+<div class="col-container">
+<span class="small"><img class="animation" src="content/animation/poster.jpg"></span>
+<span class="small"><img class="animation" src="content/animation/mov/0.png"></span>
+<span class="small"><img class="animation" src="content/animation/mov/1.png"></span>
+<span class="small"><img class="animation" src="content/animation/mov/2.png"></span>
+<span class="small"><img class="animation" src="content/animation/mov/3.png"></span>
+</div>
+
+<div class="project-intro">The research in Parametric Animation explores the role of animation and movement in the (graphic) design process. Generated by Parametric Animation, the outcomes are variations of a design which uses principles of animation and movement, intended for Graphic Designers.</div>
+
+<div class="chapter">Process illustrations</div>
+
+<div class="col-container">
+<img class="wide" src="content/animation/2.jpg">
+<img class="wide" src="content/animation/3.jpg">
+</div>
+
+<div class="project-intro">Several parties were involved in this research. Testing and discussing the use of parametric animation with them made a great contribution to the research, which resulted in an application that will generate different designs based on formulated conditions.</div>
+
+<div class="box-project">
+<div class="project">
+<span class="project-date">2015 - 2016</span>
+<span class="project-name">Microplastic</span>
+<span class="project-header">Avans University of applied science</span>
+<div class="keywords">
+<span class="words">Bachelor Graphic Design</span>
+<span class="words">Identity</span>
+<span class="words">Infographic</span>
+<span class="words">Collaboration Ocean Cleanup</span>
+</div>
+</div>
+</div>
+
+<div class="firstchapter">Exposition Bachelor Graduation</div>
+
+<div class="col-container">
+<img class="onethird" src="content/sea/expo/0.jpg">
+<img class="onethird" src="content/sea/expo/1.jpg">
+<img class="onethird" src="content/sea/expo/2.jpg">
+</div>
+
+<div class="project-intro">For the Graduation Bachelor Graphic Design I made a Infographic about the sea pollution, based on data and research from the Ocean Cleanup Rapport 2014</div>
+
+<div class="chapter">Pictogram illustrations</div>
+
+<div class="col-container">
+<img class="wide" src="content/sea/picto1.png">
+<img class="wide" src="content/sea/picto2.png">
+</div>
+
+<div class="chapter">Maquette experiments</div>
+
+<div class="col-container">
+<img class="onethird" src="content/sea/maquette/0.jpg">
+<img class="onethird" src="content/sea/maquette/1.jpg">
+<img class="onethird" src="content/sea/maquette/2.jpg">
+</div>
+
+
+<div class="chapter">Proces illustrations</div>
+
+<div class="col-container">
+<span class="plastic"><img src="content/sea/illustraties/0.jpg"></span>
+<span class="plastic"><img src="content/sea/illustraties/1.jpg"></span>
+<span class="plastic"><img class="wide" src="content/sea/illustraties/2.jpg"></span>
+</div>
+
+<div class="box-project">
+<div class="project">
+<span class="project-date">2015 - 2016</span>
+<span class="project-name">Stereotype Scientists</span>
+<span class="project-header">Illustrations for IntroScience NL</span>
+<div class="keywords">
+<span class="words">Co-Founder Introscience NL</span>
+<span class="words">Identity</span>
+</div>
+</div>
+</div>
+
+<div class="col-container">
+<img src="content/scientist/0.jpg">
+<img src="content/scientist/1.jpg">
+<img src="content/scientist/2.jpg">
+<img src="content/scientist/3.jpg">
+</div>
+
+<div class="box-project">
+<div class="project">
+<span class="project-date">2015</span>
+<span class="project-name">Chaotic selfportraits</span>
+<span class="project-header">Avans University of applied science</span>
+<div class="keywords">
+<span class="words">Illustration</span>
+<span class="words">Self-portrait</span>
+</div>
+</div>
+</div>
+
+<div class="col-container">
+<img src="content/portrait/0.jpg">
+<img src="content/portrait/1.jpg">
+<img src="content/portrait/2.jpg">
+<img src="content/portrait/3.jpg">
+</div>
+
+<div class="box-project">
+<div class="project">
+<span class="project-date">Summer 2014</span>
+<span class="project-name">Ornaments</span>
+<div class="keywords">
+<span class="words">Illustration</span>
+<span class="words">Experiments</span>
+<span class="words">Shading</span>
+</div>
+</div>
+</div>
+
+<div class="col-container">
+<img src="content/italy/0.png">
+<img src="content/italy/1.png">
+<img class="wide" src="content/italy/2.png">
+</div>
+
+<div class="box-project">
+<div class="project">
+<span class="project-date">2014 - 2015</span>
+<span class="project-name">Way-finding icons</span>
+<span class="project-header">Avans University of applied science</span>
+<div class="keywords">
+<span class="words">Illustration</span>
+<span class="words">Identity</span>
+<span class="words">WayFinding Delft</span>
+</div>
+</div>
+</div>
+
+<div class="firstchapter">Map experiments</div>
+
+<div class="col-container">
+<img class="wide" src="content/icons/map/0.png">
+<img class="wide" src="content/icons/map/1.png">
+</div>
+
+<div class="chapter">Pictogram illustrations</div>
+
+<div class="col-container">
+<img src="content/icons/0.jpg">
+<img src="content/icons/1.jpg">
+<img src="content/icons/2.jpg">
+<img src="content/icons/3.jpg">
+</div>
+
+<div class="box-project">
+<div class="project">
+<span class="project-date">2014 - 2015</span>
+<span class="project-name">Brand proces illustrations</span>
+<span class="project-header">Avans University of applied science</span>
+<div class="keywords">
+<span class="words">Identity</span>
+</div>
+</div>
+</div>
+
+<div class="col-container">
+<span><img src="content/interdutch/0.jpg"></span>
+<span><img src="content/interdutch/1.jpg"></span>
+<span><img src="content/interdutch/2.jpg"></span>
+<span><img src="content/interdutch/3.jpg"></span>
+</div>
+
+<div class="box-project">
+<div class="project">
+<span class="project-date">2012 - 2013</span>
+<span class="project-name">Croatia holiday</span>
+<div class="keywords">
+<span class="words">Holiday</span>
+<span class="words">Meditation</span>
+</div>
+</div>
+</div>
+
+<div class="col-container">
+<img src="content/croatia/0.jpg">
+<img src="content/croatia/2.jpg">
+<img src="content/croatia/1.jpg">
+<img src="content/croatia/3.jpg">
+<img src="content/croatia/4.jpeg">
+<img src="content/croatia/5.jpeg">
+<img src="content/croatia/6.jpeg">
+<img src="content/croatia/7.jpeg">
+</div>
+
+<div class="box-project">
+<div class="project">
+<span class="project-date">Summer 2012</span>
+<span class="project-name">Ornaments</span>
+<div class="keywords">
+<span class="words">Holiday</span>
+<span class="words">Meditation</span>
+</div>
+</div>
+</div>
+
+<div class="col-container">
+<img src="content/ornaments/0.jpg">
+<img src="content/ornaments/1.jpg">
+<img src="content/ornaments/2.jpg">
+<img src="content/ornaments/3.jpg">
+<img src="content/ornaments/4.jpeg">
+<img src="content/ornaments/5.jpeg">
+<img src="content/ornaments/6.jpeg">
+<img src="content/ornaments/7.jpeg">
+</div>
+
+<div class="box-project">
+<div class="project">
+<span class="project-date">Summer 2012</span>
+<span class="project-name">Just some random comics</span>
+</div>
+</div>
+
+<div class="col-container">
+<img src="content/strip/0.jpg">
+<img src="content/strip/1.jpg">
+<img src="content/strip/2.jpg">
+<img src="content/strip/3.jpg">
+</div>
+
+<div class="box-project">
+<div class="project">
+<span class="project-date">2008 - 2009</span>
+<span class="project-name">Responsive web educator</span>
+<span class="project-header">Royal Academy of Art The Hague</span>
+</div>
+</div>
+
+<div class="col-container">
+<img src="content/educator/0.jpg">
+<img src="content/educator/1.jpg">
+<img src="content/educator/2.jpg">
+<img src="content/educator/3.jpg">
+</div>
+
+<div class="box-project">
+<div class="project">
+<span class="project-date">2004 - 2005</span>
+<span class="project-name">Graphs experiments</span>
+<span class="project-header">School for Young Talent</span>
+<div class="keywords">
+<span class="words">Monoprint</span>
+<span class="words">Black & White</span>
+<span class="words">Leaves</span>
+</div>
+</div>
+</div>
+
+<div class="col-container">
+<img src="content/grafiek/0.jpg">
+<img src="content/grafiek/1.jpg">
+<img src="content/grafiek/2.jpg">
+<img src="content/grafiek/3.jpg">
+</div>
+
+<div class="projectlast">
+<div class="titlelast">Education & Achievement</div>
+</div>
+
+|||||
+|---|---|---|---|
+|2016 - 2018|Conditional Animation|Master|AKV St Joost - Avans University of applied science|
+|2013 - 2016|Generative Design|Bachelor|AKV St Joost - Avans University of applied science|
+|2011 - 2012|Graphic Design|Propedeuse|Royal Academy of Art The Hague|
+|2003 - 2011|School for Young Talent|High School|Royal Academy of Art The Hague|
+|2017 Februari 17th|Training in entrepreneurship|Certificate|Starterslift|
+|2016 - 2017|Support in entrepreneurship|Business Support|Business Atelier|
+
+<div class="thesis">Master thesis: "Conditional Animation - Designing with animation makes the design proces a lot easier and more efficient"</div>
+
+<div class="bar">
+<div class="contact">
+<span class="about">© 2018</span>
+<span class="about">info[at]jvb.com</span>
+<span class="about">The Netherlands</span>
+<span class="about">Breda</span>
+<span class="about">06 245 27 440</span>
+</div>
+</div>
