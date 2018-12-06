@@ -75,16 +75,6 @@
 <span class="small"><img src="content/conditinalcity/23.jpeg"></span>
 <span class="small"><img src="content/conditinalcity/25.jpeg"></span>
 <span class="small"><img src="content/conditinalcity/28.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/29.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/37.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/38.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/39.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/45.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/46.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/47.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/52.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/55.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/56.jpeg"></span>
 </div>
 
 <div class="project-intro">These drawing are made by a repetition of visual conditions</div>
