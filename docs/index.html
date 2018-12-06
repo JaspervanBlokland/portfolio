@@ -8,6 +8,712 @@
 <title>website</title>
 
 
+<style type="text/css">
+@font-face{font-family:'Upgrade-Light';
+    src:url('fonts/Upgrade-Light.eot?v=4.6.3');
+    src:url('fonts/Upgrade-Light.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+        url('fonts/Upgrade-Light.woff2?v=4.6.3') format('woff2'),
+        url('fonts/Upgrade-Light.woff?v=4.6.3') format('woff');
+    font-weight:normal;
+    font-style:normal
+}
+@font-face{font-family:'Upgrade-Regular';
+    src:url('fonts/Upgrade-Regular.eot?v=4.6.3');
+    src:url('fonts/Upgrade-Regular.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+        url('fonts/Upgrade-Regular.woff2?v=4.6.3') format('woff2'),
+        url('fonts/Upgrade-Regular. Okéwoff?v=4.6.3') format('woff');
+    font-weight:normal;
+    font-style:normal
+}
+@font-face{font-family:'Upgrade-Book';
+    src:url('fonts/Upgrade-Book.eot?v=4.6.3');
+    src:url('fonts/Upgrade-Book.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+        url('fonts/Upgrade-Book.woff2?v=4.6.3') format('woff2'),
+        url('fonts/Upgrade-Book.woff?v=4.6.3') format('woff');
+    font-weight:normal;
+    font-style:normal
+}
+@font-face{font-family:'Upgrade-Medium';
+    src:url('fonts/Upgrade-Medium.eot?v=4.6.3');
+    src:url('fonts/Upgrade-Medium.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+        url('fonts/Upgrade-Medium.woff2?v=4.6.3') format('woff2'),
+        url('fonts/Upgrade-Medium.woff?v=4.6.3') format('woff');
+    font-weight:normal;
+    font-style:normal
+}
+@font-face{font-family:'Upgrade-Bold';
+    src:url('fonts/Upgrade-Bold.eot?v=4.6.3');
+    src:url('fonts/Upgrade-Bold.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+        url('fonts/Upgrade-Bold.woff2?v=4.6.3') format('woff2'),
+        url('fonts/Upgrade-Bold.woff?v=4.6.3') format('woff');
+    font-weight:normal;
+    font-style:normal
+}
+@font-face{font-family:'Upgrade-Black';
+    src:url('fonts/Upgrade-Black.eot?v=4.6.3');
+    src:url('fonts/Upgrade-Black.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+        url('fonts/Upgrade-Black.woff2?v=4.6.3') format('woff2'),
+        url('fonts/Upgrade-Black.woff?v=4.6.3') format('woff');
+    font-weight:normal;
+    font-style:normal
+}
+/*--------------------------------------------SUP*/
+sup {
+  position:relative; 
+  top:0pt; 
+  left:5pt; 
+  font-size:16pt; 
+}
+/*--------------------------------------------CONNTACT*/    
+.contact {
+  float:center;
+  text-align:center;  
+  margin-bottom:10pt; 
+}
+span.about {
+  font-size: 12pt;
+  line-height:25pt; 
+  text-transform: uppercase;
+  margin:10pt; 
+} 
+@media only screen and (max-width: 470pt) { 
+  span.about:nth-child(3), 
+  span.about:nth-child(4) {
+    display:none; 
+  }
+}
+/*--------------------------------------------COVER*/
+.cover{
+  padding-top:30pt; 
+}
+.website {
+  text-transform: uppercase;
+  font-size: 18pt;
+  text-align: center;
+}
+.name {
+  font-size: 30pt;
+  line-height:32pt;
+  text-align: center;
+  padding-bottom:10pt; 
+  margin-bottom:10pt; 
+  margin-left:20pt; 
+  margin-right:20pt; 
+}
+.words{
+  font-size: 12pt;
+  margin-left:10pt; 
+} 
+.words:first-child{
+  margin-left:20pt; 
+}  
+/*COVER 1*/  
+@media only screen and (min-width: 200pt) and (max-width: 834pt) { 
+  .website {
+    margin-left:10pt; 
+    margin-right:10pt; 
+  }
+}
+/*COVER 2*/  
+@media only screen and (min-width: 834pt)  { 
+  .website {
+    width:834pt;
+    margin:auto; 
+  }
+  .name {
+    width:800pt;
+    margin:auto; 
+    margin-bottom:10pt; 
+  }
+}
+/*--------------------------------------------FUCTION*/
+.box {
+  float:center;
+  text-align:center; 
+  padding-top:10pt;
+  padding-bottom:10pt;   
+}
+span.function {
+  text-align:center; 
+  font-size: 32pt;
+  line-height:40pt; 
+}
+/*FUCTION 1*/
+@media only screen and (min-width: 200pt) and (max-width: 580pt) { 
+  span.function {
+    display:block; 
+  } 
+}
+/*FUNCTION 2*/  
+@media only screen and (min-width: 580pt)  { 
+  .box {
+    margin-top:35pt; 
+  }
+  span.function {
+    display:inline;
+  }
+  span.function:nth-child(2) {
+    padding-left:15pt;
+    padding-right:15pt;   
+  }
+}
+/*--------------------------------------------PROJECT*/  
+span.project-date, 
+span.project-name,
+span.project-header {
+  font-size: 20pt;
+}
+.firstchapter,
+.chapter {
+  font-size: 16pt;
+  padding-top:25pt; 
+  line-height:5pt; 
+  text-align: left;
+}
+.projectlast .titlelast {
+  font-size: 16pt;
+  line-height:30pt;
+  padding-top:10pt; 
+  padding-bottom:10pt; 
+  text-transform: capitalize;
+}
+/*PROJECT 1*/  
+@media only screen and (min-width: 200pt) and (max-width: 600pt) { 
+  .projectfirst,
+  .project {
+    line-height:30pt;
+    padding-bottom:5pt;
+  }
+  .keywords {
+    margin-right:20pt; 
+    padding-bottom:5pt; 
+    overflow: hidden;
+    height:30pt; 
+  }  
+  span.project-date {
+    display:block; 
+    text-align:right; 
+    padding-top:10pt; 
+    padding-right:20pt; 
+  }
+  span.project-name {
+    display:block; 
+    width:100%; 
+    text-align:center; 
+    margin-top:5pt;
+    padding-bottom:5pt;  
+  }
+  span.project-header {
+    display:block; 
+    width:100%; 
+    text-align:center; 
+    padding-bottom:5pt; 
+  }
+  .firstchapter,
+  .chapter {
+    margin-left:20pt; 
+    margin-right:20pt; 
+  } 
+}
+/*PROJECT 2*/  
+@media only screen and (min-width: 600pt) and (max-width: 834pt) { 
+  /*PROJECTFIRST*/  
+  .projectfirst,
+  .project {
+    line-height:30pt;
+    padding-top:10pt; 
+    padding-bottom:7pt; 
+  }
+  span.project-date {
+    display:inline; 
+    text-align:left; 
+    padding-left:20pt; 
+  }
+  span.project-name {
+    display:inline; 
+    float:right;
+    margin-right:20pt; 
+  }
+  span.project-header {
+    display:inline; 
+    float:right;
+    margin-right:10pt; 
+  }
+  .firstchapter,
+  .chapter {
+    margin-left:20pt; 
+    margin-right:20pt; 
+  }
+}
+/*PROJECT 3*/  
+@media only screen and (min-width: 834pt)  { 
+  .projectfirst,
+  .project {
+    line-height:30pt;
+    padding-top:10pt; 
+    padding-bottom:7pt; 
+    width:834pt;
+    margin:auto; 
+  }
+  span.project-date {
+    display:inline; 
+    text-align:left; 
+    padding-left:20pt; 
+  }
+  span.project-name {
+    display:inline; 
+    float:right;
+    margin-right:20pt; 
+  }
+  span.project-header {
+    display:inline; 
+    float:right;
+    margin-right:15pt; 
+  }
+  .firstchapter,
+  .chapter {
+    width:790pt;
+    margin:auto; 
+  }
+}
+/*--------------------------------------------TABLE*/    
+table {
+  border-collapse: collapse;
+  margin-top:2pt;
+  margin-bottom: 10pt;
+  font-size:13pt; 
+}
+@media only screen and (min-width: 200pt) and (max-width: 600pt) { 
+  table, thead, tbody, th, td, tr { 
+    display:none; 
+  }
+}
+/*TABLE 2*/    
+@media only screen and (min-width: 600pt) and (max-width: 834pt) { 
+  table, thead, tbody, th, td, tr { 
+    display:none; 
+  }
+}
+/*TABLE 3*/    
+@media only screen and (min-width: 834pt)  { 
+  table {
+    width:790pt;
+    margin:auto; 
+  }
+  td {
+    padding:10pt; 
+  }
+  table td:first-child {
+    width:16%; 
+    text-align:left;
+    text-transform: uppercase;
+  }
+  table td:nth-child(2) {
+    width:23%; 
+    text-align:right;
+  }
+  table td:nth-child(3) {
+    width:15%; 
+    text-align:left;
+  }
+  table td:last-child {
+    width:35%; 
+    text-align:right;
+  } 
+}
+/*--------------------------------------------IMAGE*/
+.col-container {
+  padding-top:20pt; 
+  padding-bottom:20pt; 
+}
+img {
+  vertical-align:top;
+}
+span.plastic img{
+  vertical-align:bottom;  
+}
+
+/*IMAGE 1*/
+@media only screen and (min-width: 200pt) and (max-width: 600pt) { 
+  .col-container {
+    padding-left:2%;
+    padding-right:2%;  
+  }
+  img {
+    width:47%;
+    height: auto;
+    padding:1%; 
+    padding-top:5pt; 
+    padding-bottom:5pt; 
+  }
+  span.small img {
+    width:30.7%;
+    height: auto;
+  }
+  img.wide{
+    width: 96.6%;
+    height: auto;
+  }
+  span.full img {
+    width: 98%;
+    height: auto;
+  } 
+  img.onethird {
+    width: 47.4%;
+    height: auto;
+  }
+  img.onethird:nth-child(3){
+    display:none; 
+  }
+  span.small:nth-child(4) img.animation,
+  span.small:nth-child(5) img.animation {
+    display:none; 
+  }
+}
+/*IMAGE 2*/
+@media only screen and (min-width: 600pt) and (max-width: 834pt) { 
+  .col-container {
+    padding-left:2%;
+    padding-right:2%;  
+  }
+  img {
+    width:22.6%;
+    height: auto;
+    padding:1%; 
+  }
+  span.small img {
+    width:22.6%;
+    height: auto;
+  }
+  img.wide{
+    width: 47.6%;
+    height: auto;
+  }
+  span.full img {
+    width: 98%;
+    height: auto;
+  }  
+  img.onethird {
+    width: 30.9%;
+    height: auto;
+  }
+  span.small:nth-child(5) img.animation {
+    display:none; 
+  }
+}  
+/*IMAGE 3*/
+@media only screen and (min-width: 834pt)  { 
+  .col-container {
+    width:790pt;
+    margin:auto; 
+  }
+  img {
+    padding:5pt; 
+    width:23.4%;
+    height: auto;
+  }
+  span.small img {
+    width:18.4%;
+    height: auto;
+  }
+  img.wide{
+    width: 48.4%;
+    height: auto;
+  }
+  span.full img {
+    width: 98.6%;
+    height: auto;
+  } 
+  img.onethird {
+    width: 31.8%;
+    height: auto;
+  }
+}
+/*--------------------------------------------BORDER*/
+@media only screen and (min-width: 200pt) {
+  .cover,
+  .name {
+    border-bottom: 2pt solid white;
+  }
+  .chapter {
+    border-top: 1px solid #113A73;
+  }
+  .title {
+    border-top: 1pt solid white;
+  }
+  .projectlast {
+    border-top: 2px solid #113A73;
+  }
+}
+/*--------------------------------------------COLOR*/
+@media only screen and (min-width: 200pt) {
+  .cover,
+  .bar {
+    background-color:#113A73; 
+  }
+  .box-project{
+    background-color:#113A73;
+  }
+  .projectfirst,
+  .project {
+  }
+  .website,
+  .name,
+  .intro,
+  .title,
+  .function,
+  span.about,
+  ul .skills,
+  ul .skills a {
+    color:white; 
+  }
+  .project-name,
+  .project-header,
+  .project-date,
+  .keywords  {
+    color:white;     
+  }
+  sup,
+  ul li:nth-child(2) .skills span.one,
+  ul li:nth-child(4) .skills span.two,
+  ul li:nth-child(2) .skills span.three {
+    color:white; 
+  }
+  .thesis,
+  .firstchapter,
+  .chapter,
+  .project-intro,
+  .projectlast,
+  table td:nth-child(3),
+  table td:nth-child(2),
+  table td:nth-child(4),
+  table td:last-child {
+    color:#113A73; 
+  }
+  span.header,
+  table td:first-child {
+    color:dimgray; 
+  }
+} 
+/*--------------------------------------------FONT*/
+@media only screen and (min-width: 200pt) {
+  span.function {
+    font-family: Upgrade-Black;
+  }
+  .website {
+    font-family: Upgrade-Black;
+  }
+  .name {
+    font-family: Upgrade-Light;
+  }
+  .title, 
+  .titlelast,
+  table td:nth-child(3) {
+    font-family:Upgrade-Medium;
+  }
+  .intro,
+  .project-intro,
+  span.project-date,
+  table td:first-child {
+    font-family: Upgrade-Light;
+  }
+  sup,
+  span.project-name,
+  .projectlast {
+    font-family: Upgrade-Bold;
+  }
+  span.project-header {
+    font-family: Upgrade-Book;
+  }
+  .firstchapter,
+  .chapter,
+  .words,
+  .thesis,
+  table td:nth-child(2), 
+  table td:last-child {
+    font-family: Upgrade-Book;
+  }
+  span.about,
+  ul .skills {
+    font-family: Upgrade-Medium;
+  }
+}
+/*--------------------------------------------SKILLS */
+.title {
+  font-size: 8pt;
+  line-height:30pt;
+  text-transform: uppercase;
+}
+.titlelast {
+  font-size: 10pt;
+  line-height:30pt;
+  margin-top:20pt; 
+  margin-left:20pt; 
+  margin-right:20pt; 
+  text-transform: uppercase;
+}
+ul {
+  list-style: none;
+  text-align:center; 
+  margin:0pt; 
+  margin-top:-5pt;
+  margin-bottom:22pt; 
+  padding:0pt;  
+}
+ul li {
+  display: inline;
+  color:Crimson; 
+  margin:10pt;   
+}
+ul .skills,
+ul .skills a {
+  display: inline;
+  font-size: 16.5pt;
+}
+/*SKILLS 1*/
+@media only screen and (max-width: 690pt) { 
+  .title,
+  .titlelast,
+  ul,
+  ul li,
+  ul .skills {
+    display:none;
+  }
+}
+/*SKILLS 2*/
+@media only screen and (min-width: 690pt) and (max-width: 834pt) { 
+  .title {
+    margin-left:20pt; 
+    margin-right:20pt; 
+  }
+  .titlelast {
+    margin-left:20pt; 
+    margin-right:20pt; 
+  }
+}
+/*SKILLS 3*/
+@media only screen and (min-width: 834pt)  { 
+  .title {
+    width:800pt;
+    margin:auto; 
+  }
+  .titlelast {
+    width:800pt;
+    margin:auto; 
+  }
+}
+/*--------------------------------------------INTRO*/
+.intro {
+  font-size: 18pt;
+  line-height: 30pt;
+  padding-top:0pt; 
+  padding-bottom:15pt; 
+  text-align: center;
+}
+.project-intro {
+  font-size: 16pt;
+  line-height: 30pt;
+  text-align: center;
+}
+@media only screen and (min-width: 580pt)  { 
+  .intro,
+  .project-intro {
+    padding-bottom:40pt; 
+  }
+}
+@media only screen and (min-width: 200pt) and (max-width: 400pt) { 
+  .intro,
+  .project-intro {
+    width:90%;
+    margin:auto; 
+    padding-bottom:30pt;
+  }
+}
+@media only screen and (min-width: 400pt) and (max-width: 500pt) { 
+  .intro,
+  .project-intro {
+    width:370pt;
+    margin:auto; 
+    padding-bottom:30pt;
+  }
+}
+@media only screen and (min-width: 500pt) and (max-width: 600pt) { 
+  .intro,
+  .project-intro {
+    width:400pt;
+    margin:auto;
+    padding-bottom:30pt;
+  }
+}
+@media only screen and (min-width: 600pt) and (max-width: 700pt) { 
+  .intro,
+  .project-intro {
+    width:500pt;
+    margin:auto; 
+  }
+}
+@media only screen and (min-width: 700pt) and (max-width: 834pt) { 
+  .intro,
+  .project-intro {
+    width:600pt;
+    margin:auto; 
+  }
+  .project-intro {
+    padding-bottom:25pt; 
+  }  
+}
+@media only screen and (min-width: 834pt)  { 
+  .intro,
+  .project-intro {
+    width:620pt;
+    margin:auto; 
+  }
+  .project-intro {
+    padding-bottom:25pt; 
+  } 
+}
+/*--------------------------------------------THESIS*/
+@media only screen and (min-width: 200pt) and (max-width: 834pt) { 
+  .thesis {
+    display:none; 
+  }
+}
+/*THESIS 2*/
+@media only screen and (min-width: 834pt)  { 
+  .thesis {
+    font-size: 12pt;
+    line-height: 10pt;
+    width:790pt;
+    margin:auto; 
+    margin-top:15pt;
+    margin-bottom:25pt; 
+    text-align: left;
+  }
+}
+/*--------------------------------------------RESPONSIVE 1*/
+@media only screen and (min-width: 200pt) and (max-width: 600pt) { 
+  body {
+    margin: 0px 0px;
+  }
+}
+@media only screen and (min-width: 600pt) and (max-width: 834pt) { 
+  body {
+    margin: 0px 0px;
+  }
+}
+@media only screen and (min-width: 834pt)  { 
+  body {
+    margin: 0px 0px;
+  }
+}
+@media only screen and (min-width: 200pt) { 
+  .bar {
+    padding-top:20pt; 
+    padding-bottom:10pt; 
+  }
+}
+</style>
+
 
 </head>
 
@@ -96,7 +802,7 @@
 <span class="small"><img src="content/conditinalcity/23.jpeg"></span>
 <span class="small"><img src="content/conditinalcity/25.jpeg"></span>
 <span class="small"><img src="content/conditinalcity/28.jpeg"></span>
-</div>
+    </div>
 
 <div class="project-intro">These drawing are made by a repetition of visual conditions</div>
 
