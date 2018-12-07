@@ -254,24 +254,6 @@
 
 <div class="box-project">
 <div class="project">
-<span class="project-date">2014 - 2015</span>
-<span class="project-name">Brand proces illustrations</span>
-<span class="project-header">Avans University of applied science</span>
-<div class="keywords">
-<span class="words">Identity</span>
-</div>
-</div>
-</div>
-
-<div class="col-container">
-<span><img src="content/interdutch/0.jpg"></span>
-<span><img src="content/interdutch/1.jpg"></span>
-<span><img src="content/interdutch/2.jpg"></span>
-<span><img src="content/interdutch/3.jpg"></span>
-</div>
-
-<div class="box-project">
-<div class="project">
 <span class="project-date">2012 - 2013</span>
 <span class="project-name">Croatia holiday</span>
 <div class="keywords">
@@ -317,7 +299,7 @@
 <div class="box-project">
 <div class="project">
 <span class="project-date">Summer 2012</span>
-<span class="project-name">Just some random comics</span>
+<span class="project-name">Comics</span>
 </div>
 </div>
 
@@ -341,26 +323,6 @@
 <img src="content/educator/1.jpg">
 <img src="content/educator/2.jpg">
 <img src="content/educator/3.jpg">
-</div>
-
-<div class="box-project">
-<div class="project">
-<span class="project-date">2004 - 2005</span>
-<span class="project-name">Graphs experiments</span>
-<span class="project-header">School for Young Talent</span>
-<div class="keywords">
-<span class="words">Monoprint</span>
-<span class="words">Black & White</span>
-<span class="words">Leaves</span>
-</div>
-</div>
-</div>
-
-<div class="col-container">
-<img src="content/grafiek/0.jpg">
-<img src="content/grafiek/1.jpg">
-<img src="content/grafiek/2.jpg">
-<img src="content/grafiek/3.jpg">
 </div>
 
 <div class="projectlast">
