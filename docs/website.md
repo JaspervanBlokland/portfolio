@@ -30,8 +30,7 @@
 
 - <div class="skills"><span class="two">Team-player</span></div>
 - <div class="skills"><span class="two">Communicator</span></div>
-- <div class="skills"><span class="two">Driven</span></div>
-- <div class="skills"><span class="two">Enthusiastic</span></div>
+- <div class="skills"><span class="two">Enthusiastic entreperneur</span></div>
 - <div class="skills"><span class="two">Problem solver</span></div>
 - <div class="skills"><span class="two">Brainstormer</span></div>
 
@@ -83,7 +82,7 @@
 <div class="project">
 <span class="project-date">2017 - 2018</span>
 <span class="project-name">Conditional animation</span>
-<span class="project-header">Avans University of applied science</span>
+<span class="project-header">Avans University of Applied Science</span>
 <div class="keywords">
 <span class="words">Master Animation</span>
 <span class="words">Illustrations</span>
@@ -122,7 +121,7 @@
 <div class="project">
 <span class="project-date">2015 - 2016</span>
 <span class="project-name">Microplastic</span>
-<span class="project-header">Avans University of applied science</span>
+<span class="project-header">Avans University of Applied Science</span>
 <div class="keywords">
 <span class="words">Bachelor Graphic Design</span>
 <span class="words">Identity</span>
@@ -189,7 +188,7 @@
 <div class="project">
 <span class="project-date">2015</span>
 <span class="project-name">Chaotic selfportraits</span>
-<span class="project-header">Avans University of applied science</span>
+<span class="project-header">Avans University of Applied Science</span>
 <div class="keywords">
 <span class="words">Illustration</span>
 <span class="words">Self-portrait</span>
@@ -226,7 +225,7 @@
 <div class="project">
 <span class="project-date">2014 - 2015</span>
 <span class="project-name">Way-finding icons</span>
-<span class="project-header">Avans University of applied science</span>
+<span class="project-header">Avans University of Applied Science</span>
 <div class="keywords">
 <span class="words">Illustration</span>
 <span class="words">Identity</span>
@@ -330,8 +329,8 @@
 
 |||||
 |---|---|---|---|
-|2016 - 2018|Conditional Animation|Master|AKV St Joost - Avans University of applied science|
-|2013 - 2016|Generative Design|Bachelor|AKV St Joost - Avans University of applied science|
+|2016 - 2018|Conditional Animation|Master|AKV St Joost - Avans University of Applied Science|
+|2013 - 2016|Generative Design|Bachelor|AKV St Joost - Avans University of Applied Science|
 |2011 - 2012|Graphic Design|Propedeuse|Royal Academy of Art The Hague|
 |2003 - 2011|School for Young Talent|High School|Royal Academy of Art The Hague|
 |2016 - 2017|Training in entrepreneurship|Certificate|Starterslift|
