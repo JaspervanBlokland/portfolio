@@ -57,7 +57,6 @@
 <span class="words">Try & Error</span>
 <span class="words">Repitition</span>
 <span class="words">Black & White</span>
-<span class="words">Meditation</span>
 <span class="words">Fineliner</span>
 <span class="words">Skylines</span>
 </div>
@@ -77,7 +76,7 @@
 <span class="small"><img src="content/conditinalcity/28.jpeg"></span>
 </div>
 
-<div class="project-intro">These drawing are made by a repetition of visual conditions</div>
+<div class="project-intro">These drawings are made with repetitions of visual conditions</div>
 
 <a name="motion"/>
 <div class="box-project">
@@ -141,7 +140,7 @@
 <img class="onethird" src="content/sea/expo/2.jpg">
 </div>
 
-<div class="project-intro">For the Graduation Bachelor Graphic Design I made a Infographic about the sea pollution, based on data and research from the Ocean Cleanup Rapport 2014</div>
+<div class="project-intro">For the Graduation Bachelor Graphic Design I made a Infographic about the plastic sea pollution, based on data and research by the Ocean Cleanup Rapport 2014</div>
 
 <div class="chapter">Pictogram illustrations</div>
 
@@ -258,7 +257,7 @@
 <span class="project-name">Croatia holiday</span>
 <div class="keywords">
 <span class="words">Holiday</span>
-<span class="words">Meditation</span>
+<span class="words">Notation</span>
 </div>
 </div>
 </div>
@@ -280,7 +279,7 @@
 <span class="project-name">Ornaments</span>
 <div class="keywords">
 <span class="words">Holiday</span>
-<span class="words">Meditation</span>
+<span class="words">Notation</span>
 </div>
 </div>
 </div>
@@ -335,7 +334,7 @@
 |2013 - 2016|Generative Design|Bachelor|AKV St Joost - Avans University of applied science|
 |2011 - 2012|Graphic Design|Propedeuse|Royal Academy of Art The Hague|
 |2003 - 2011|School for Young Talent|High School|Royal Academy of Art The Hague|
-|2017 Februari 17th|Training in entrepreneurship|Certificate|Starterslift|
+|2016 - 2017|Training in entrepreneurship|Certificate|Starterslift|
 |2016 - 2017|Support in entrepreneurship|Business Support|Business Atelier|
 
 <div class="thesis">Master thesis: "Conditional Animation - Designing with animation makes the design proces a lot easier and more efficient"</div>
