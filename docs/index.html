@@ -158,9 +158,8 @@ span.function {
   }
 }
 /*--------------------------------------------PROJECT*/  
-span.project-date, 
-span.project-name,
-span.project-header {
+.project-name,
+.project-header {
   font-size: 20pt;
 }
 .firstchapter,
@@ -183,19 +182,7 @@ span.project-header {
   .project {
     line-height:30pt;
     padding-bottom:5pt;
-  }
-  .keywords {
-    margin-right:20pt; 
-    padding-bottom:5pt; 
-    overflow: hidden;
-    height:30pt; 
   }  
-  span.project-date {
-    display:block; 
-    text-align:right; 
-    padding-top:10pt; 
-    padding-right:20pt; 
-  }
   span.project-name {
     display:block; 
     width:100%; 
@@ -203,11 +190,17 @@ span.project-header {
     margin-top:5pt;
     padding-bottom:5pt;  
   }
-  span.project-header {
+ span.project-header {
     display:block; 
     width:100%; 
     text-align:center; 
     padding-bottom:5pt; 
+  }
+  .keywords {
+    margin-right:20pt; 
+    padding-bottom:5pt; 
+    overflow: hidden;
+    height:30pt; 
   }
   .firstchapter,
   .chapter {
@@ -224,20 +217,16 @@ span.project-header {
     padding-top:10pt; 
     padding-bottom:7pt; 
   }
-  span.project-date {
-    display:inline; 
-    text-align:left; 
-    padding-left:20pt; 
-  }
   span.project-name {
-    display:inline; 
-    float:right;
-    margin-right:20pt; 
+    display:inline-block; 
+    margin-left:20pt; 
   }
   span.project-header {
-    display:inline; 
-    float:right;
-    margin-right:10pt; 
+    display:inline-block;
+    margin-left:15pt; 
+  }
+  .keywords{
+    display:block; 
   }
   .firstchapter,
   .chapter {
@@ -255,20 +244,16 @@ span.project-header {
     width:834pt;
     margin:auto; 
   }
-  span.project-date {
-    display:inline; 
-    text-align:left; 
-    padding-left:20pt; 
-  }
   span.project-name {
-    display:inline; 
-    float:right;
-    margin-right:20pt; 
+    display:inline-block; 
+    margin-left:20pt; 
   }
   span.project-header {
-    display:inline; 
-    float:right;
-    margin-right:15pt; 
+    display:inline-block;
+    margin-left:15pt; 
+  }
+  .keywords{
+    display:block; 
   }
   .firstchapter,
   .chapter {
@@ -339,6 +324,7 @@ span.plastic img{
     padding-left:2%;
     padding-right:2%;  
   }
+  video, 
   img {
     width:47%;
     height: auto;
@@ -346,6 +332,7 @@ span.plastic img{
     padding-top:5pt; 
     padding-bottom:5pt; 
   }
+  span.small video, 
   span.small img {
     width:30.7%;
     height: auto;
@@ -365,8 +352,8 @@ span.plastic img{
   img.onethird:nth-child(3){
     display:none; 
   }
-  span.small:nth-child(4) img.animation,
-  span.small:nth-child(5) img.animation {
+  span.small:nth-child(2) img.animation,
+  span.small:nth-child(4) img.animation {
     display:none; 
   }
 }
@@ -376,11 +363,13 @@ span.plastic img{
     padding-left:2%;
     padding-right:2%;  
   }
+  video,
   img {
     width:22.6%;
     height: auto;
     padding:1%; 
   }
+  span.small video, 
   span.small img {
     width:22.6%;
     height: auto;
@@ -397,7 +386,7 @@ span.plastic img{
     width: 30.9%;
     height: auto;
   }
-  span.small:nth-child(5) img.animation {
+  span.small:nth-child(2) img.animation {
     display:none; 
   }
 }  
@@ -407,11 +396,13 @@ span.plastic img{
     width:790pt;
     margin:auto; 
   }
+  video,
   img {
     padding:5pt; 
     width:23.4%;
     height: auto;
   }
+  span.small video, 
   span.small img {
     width:18.4%;
     height: auto;
@@ -474,7 +465,6 @@ span.plastic img{
   }
   .project-name,
   .project-header,
-  .project-date,
   .keywords  {
     color:white;     
   }
@@ -518,16 +508,15 @@ span.plastic img{
   }
   .intro,
   .project-intro,
-  span.project-date,
   table td:first-child {
     font-family: Upgrade-Light;
   }
   sup,
-  span.project-name,
+  .project-name,
   .projectlast {
     font-family:Upgrade-Black;
   }
-  span.project-header {
+  .project-header {
     font-family: Upgrade-Book;
   }
   .firstchapter,
@@ -750,8 +739,8 @@ ul .skills a {
 <ul>
 <li><div class="skills"><span class="one"><a href="#motion">Motion Design</a></span></div></li>
 <li><div class="skills"><span class="one">Conditional Design</span></div> </li>
-<li><div class="skills"><span class="one">Illustration</span></div></li>
-<li><div class="skills"><span class="one">Graphic Design</span></div></li>
+<li><div class="skills"><span class="one"><a href="#illustration">Illustration</a></span></div></li>
+<li><div class="skills"><span class="one"><a href="#graphic">Graphic Design</a></span></div></li>
 </ul>
 
 <div class="title">Soft Skills</div>
@@ -778,21 +767,21 @@ ul .skills a {
 </div></li>
 </ul>
 
+<p><a name="illustration"/>
 <div class="box-project">
 <div class="projectfirst">
-<span class="project-date">Summer 2018</span>
 <span class="project-name">Conditional illustration</span>
-<div class="keywords">
+<span class="keywords">
 <span class="words">Illustrations</span>
 <span class="words">Conditions</span>
-<span class="words">Try & Error</span>
-<span class="words">Repitition</span>
-<span class="words">Black & White</span>
+<span class="words">Try &amp; Error</span>
+<span class="words">Repetition</span>
+<span class="words">Black &amp; White</span>
 <span class="words">Fineliner</span>
 <span class="words">Skylines</span>
+</span>
 </div>
-</div>
-</div>
+</div></p>
 
 <div class="col-container">
 <span class="small"><img src="content/conditinalcity/3.jpeg"></span>
@@ -812,14 +801,13 @@ ul .skills a {
 <p><a name="motion"/>
 <div class="box-project">
 <div class="project">
-<span class="project-date">2017 - 2018</span>
 <span class="project-name">Conditional animation</span>
 <span class="project-header">Avans University of Applied Science</span>
 <div class="keywords">
 <span class="words">Master Animation</span>
 <span class="words">Illustrations</span>
 <span class="words">Conditions</span>
-<span class="words">Efficientie</span>
+<span class="words">Efficient</span>
 <span class="words">Typography</span>
 <span class="words">Movement</span>
 <span class="words">Collaboration</span>
@@ -834,7 +822,7 @@ ul .skills a {
 <span class="small"><img class="animation" src="content/animation/mov/0.png"></span>
 <span class="small"><img class="animation" src="content/animation/mov/1.png"></span>
 <span class="small"><img class="animation" src="content/animation/mov/2.png"></span>
-<span class="small"><img class="animation" src="content/animation/mov/3.png"></span>
+<span class="small"><video src="content/animation/mov/4.mov" no-controls loop autoplay></video></span>
 </div>
 
 <div class="project-intro">The research in Parametric Animation explores the role of animation and movement in the (graphic) design process. Generated by Parametric Animation, the outcomes are variations of a design which uses principles of animation and movement, intended for Graphic Designers.</div>
@@ -842,15 +830,15 @@ ul .skills a {
 <div class="chapter">Process illustrations</div>
 
 <div class="col-container">
-<img class="wide" src="content/animation/2.jpg">
+<img class="wide" src="content/animation/2.jpg"> 
 <img class="wide" src="content/animation/3.jpg">
 </div>
 
 <div class="project-intro">Several parties were involved in this research. Testing and discussing the use of parametric animation with them made a great contribution to the research, which resulted in an application that will generate different designs based on formulated conditions.</div>
 
+<p><a name="graphic"/>
 <div class="box-project">
 <div class="project">
-<span class="project-date">2015 - 2016</span>
 <span class="project-name">Microplastic</span>
 <span class="project-header">Avans University of Applied Science</span>
 <div class="keywords">
@@ -860,7 +848,7 @@ ul .skills a {
 <span class="words">Collaboration Ocean Cleanup</span>
 </div>
 </div>
-</div>
+</div></p>
 
 <div class="firstchapter">Exposition Bachelor Graduation</div>
 
@@ -870,7 +858,7 @@ ul .skills a {
 <img class="onethird" src="content/sea/expo/2.jpg">
 </div>
 
-<div class="project-intro">For the Graduation Bachelor Graphic Design I made a Infographic about the plastic sea pollution, based on data and research by the Ocean Cleanup Rapport 2014</div>
+<div class="project-intro">For the Graduation Bachelor Graphic Design I made an infographic about the plastic sea pollution, based on data and research by the Ocean Cleanup Rapport 2014</div>
 
 <div class="chapter">Pictogram illustrations</div>
 
@@ -897,7 +885,6 @@ ul .skills a {
 
 <div class="box-project">
 <div class="project">
-<span class="project-date">2015 - 2016</span>
 <span class="project-name">Stereotype Scientists</span>
 <span class="project-header">Illustrations for IntroScience NL</span>
 <div class="keywords">
@@ -916,7 +903,6 @@ ul .skills a {
 
 <div class="box-project">
 <div class="project">
-<span class="project-date">2015</span>
 <span class="project-name">Chaotic selfportraits</span>
 <span class="project-header">Avans University of Applied Science</span>
 <div class="keywords">
@@ -935,7 +921,6 @@ ul .skills a {
 
 <div class="box-project">
 <div class="project">
-<span class="project-date">Summer 2014</span>
 <span class="project-name">Ornaments</span>
 <div class="keywords">
 <span class="words">Illustration</span>
@@ -953,7 +938,6 @@ ul .skills a {
 
 <div class="box-project">
 <div class="project">
-<span class="project-date">2014 - 2015</span>
 <span class="project-name">Way-finding icons</span>
 <span class="project-header">Avans University of Applied Science</span>
 <div class="keywords">
@@ -982,7 +966,6 @@ ul .skills a {
 
 <div class="box-project">
 <div class="project">
-<span class="project-date">2012 - 2013</span>
 <span class="project-name">Croatia holiday</span>
 <div class="keywords">
 <span class="words">Holiday</span>
@@ -1004,8 +987,8 @@ ul .skills a {
 
 <div class="box-project">
 <div class="project">
-<span class="project-date">Summer 2012</span>
 <span class="project-name">Ornaments</span>
+<span class="project-date">Summer 2012</span>
 <div class="keywords">
 <span class="words">Holiday</span>
 <span class="words">Notation</span>
@@ -1026,7 +1009,6 @@ ul .skills a {
 
 <div class="box-project">
 <div class="project">
-<span class="project-date">Summer 2012</span>
 <span class="project-name">Comics</span>
 </div>
 </div>
@@ -1040,9 +1022,9 @@ ul .skills a {
 
 <div class="box-project">
 <div class="project">
-<span class="project-date">2008 - 2009</span>
 <span class="project-name">Responsive web educator</span>
 <span class="project-header">Royal Academy of Art The Hague</span>
+<span class="project-date">2008 - 2009</span>
 </div>
 </div>
 
