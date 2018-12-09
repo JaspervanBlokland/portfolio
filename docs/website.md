@@ -63,16 +63,16 @@
 </div>
 
 <div class="col-container">
-<span class="small"><img src="content/conditinalcity/3.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/4.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/6.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/10.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/11.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/17.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/22.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/23.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/25.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/28.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/3.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/4.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/6.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/10.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/11.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/17.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/22.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/23.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/47.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/46.jpeg"></span>
 </div>
 
 <div class="project-intro">These drawings are made with repetitions of visual conditions</div>
@@ -155,7 +155,7 @@
 </div>
 
 
-<div class="chapter">Proces illustrations</div>
+<div class="chapter">Process illustrations</div>
 
 <div class="col-container">
 <span class="plastic"><img src="content/sea/illustraties/0.jpg"></span>
@@ -216,6 +216,7 @@
 <img class="wide" src="content/italy/2.png">
 </div>
 
+<a name="graphic"/>
 <div class="box-project">
 <div class="project">
 <span class="project-name">Way-finding icons</span>
@@ -268,7 +269,6 @@
 <div class="box-project">
 <div class="project">
 <span class="project-name">Ornaments</span>
-<span class="project-date">Summer 2012</span>
 <div class="keywords">
 <span class="words">Holiday</span>
 <span class="words">Notation</span>
@@ -304,7 +304,6 @@
 <div class="project">
 <span class="project-name">Responsive web educator</span>
 <span class="project-header">Royal Academy of Art The Hague</span>
-<span class="project-date">2008 - 2009</span>
 </div>
 </div>
 
@@ -328,14 +327,11 @@
 |2016 - 2017|Training in entrepreneurship|Certificate|Starterslift|
 |2016 - 2017|Support in entrepreneurship|Business Support|Business Atelier|
 
-<div class="thesis">Master thesis: "Conditional Animation - Designing with animation makes the design proces a lot easier and more efficient"</div>
+<div class="thesis">Master thesis: "Conditional Animation - Designing with animation makes the design process a lot easier and more efficient"</div>
 
 <div class="bar">
 <div class="contact">
-<span class="about">© 2018</span>
-<span class="about">info[at]jvb.com</span>
-<span class="about">The Netherlands</span>
-<span class="about">Breda</span>
-<span class="about">06 245 27 440</span>
+<span class="about">© 2018 Jasper van Blokland</span>
+<span class="about">Font: Upgrade © TYPETR</span>
 </div>
 </div>
