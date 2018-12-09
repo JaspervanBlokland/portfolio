@@ -5,7 +5,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>website</title>
+<title>index</title>
 
 
 <style type="text/css">
@@ -57,12 +57,27 @@
     font-weight:normal;
     font-style:normal
 }
-/*--------------------------------------------SUP*/
-sup {
-  position:relative; 
-  top:0pt; 
-  left:5pt; 
-  font-size:16pt; 
+/*--------------------------------------------BODY*/
+@media only screen and (min-width: 200pt) and (max-width: 600pt) { 
+  body {
+    margin: 0px 0px;
+  }
+}
+@media only screen and (min-width: 600pt) and (max-width: 834pt) { 
+  body {
+    margin: 0px 0px;
+  }
+}
+@media only screen and (min-width: 834pt)  { 
+  body {
+    margin: 0px 0px;
+  }
+}
+@media only screen and (min-width: 200pt) { 
+  .bar {
+    padding-top:20pt; 
+    padding-bottom:10pt; 
+  }
 }
 /*--------------------------------------------CONNTACT*/    
 .contact {
@@ -75,6 +90,7 @@ span.about {
   line-height:25pt; 
   text-transform: uppercase;
   margin:10pt; 
+  letter-spacing:1pt; 
 } 
 @media only screen and (max-width: 470pt) { 
   span.about:nth-child(3), 
@@ -90,6 +106,7 @@ span.about {
   text-transform: uppercase;
   font-size: 18pt;
   text-align: center;
+  letter-spacing:1pt; 
 }
 .name {
   font-size: 30pt;
@@ -99,16 +116,27 @@ span.about {
   margin-bottom:10pt; 
   margin-left:20pt; 
   margin-right:20pt; 
+  letter-spacing:1pt; 
 }
-.words{
-  font-size: 12pt;
-  margin-left:10pt; 
-} 
-.words:first-child{
-  margin-left:20pt; 
-}  
+sup {
+  position:relative; 
+  top:0pt; 
+  left:5pt; 
+  font-size:16pt; 
+}
 /*COVER 1*/  
-@media only screen and (min-width: 200pt) and (max-width: 834pt) { 
+@media only screen and (max-width: 414pt)  { 
+  .website {
+    font-size:14pt; 
+  }
+  .name {
+    font-size:20pt;   
+  }
+  sup {
+    font-size:10pt; 
+  }
+}
+@media only screen and (min-width: 414pt) and (max-width: 834pt) { 
   .website {
     margin-left:10pt; 
     margin-right:10pt; 
@@ -137,14 +165,19 @@ span.function {
   text-align:center; 
   font-size: 32pt;
   line-height:40pt; 
+  letter-spacing:1pt; 
 }
-/*FUCTION 1*/
 @media only screen and (min-width: 200pt) and (max-width: 580pt) { 
   span.function {
     display:block; 
   } 
 }
-/*FUNCTION 2*/  
+@media only screen and (max-width: 580pt) { 
+  span.function {
+    font-size: 25pt;
+    line-height:34pt; 
+  }
+}
 @media only screen and (min-width: 580pt)  { 
   .box {
     margin-top:35pt; 
@@ -162,12 +195,29 @@ span.function {
 .project-header {
   font-size: 20pt;
 }
+.project-name {
+  letter-spacing:1pt; 
+}
 .firstchapter,
 .chapter {
   font-size: 16pt;
-  padding-top:25pt; 
   line-height:5pt; 
   text-align: left;
+  letter-spacing:1pt; 
+}
+.words{
+  font-size: 12pt;
+  margin-left:10pt; 
+  letter-spacing:1pt; 
+} 
+.words:first-child{
+  margin-left:20pt; 
+}  
+.chapter {
+  padding-top:20pt; 
+}
+.firstchapter{
+  padding-top:10pt;   
 }
 .projectlast .titlelast {
   font-size: 16pt;
@@ -187,7 +237,7 @@ span.function {
     display:block; 
     width:100%; 
     text-align:center; 
-    margin-top:5pt;
+    padding-top:15pt;
     padding-bottom:5pt;  
   }
  span.project-header {
@@ -268,13 +318,7 @@ table {
   margin-bottom: 10pt;
   font-size:13pt; 
 }
-@media only screen and (min-width: 200pt) and (max-width: 600pt) { 
-  table, thead, tbody, th, td, tr { 
-    display:none; 
-  }
-}
-/*TABLE 2*/    
-@media only screen and (min-width: 600pt) and (max-width: 834pt) { 
+@media only screen and (min-width: 200pt) and (max-width: 834pt) { 
   table, thead, tbody, th, td, tr { 
     display:none; 
   }
@@ -356,6 +400,9 @@ span.plastic img{
   span.small:nth-child(4) img.animation {
     display:none; 
   }
+  span.small:nth-child(10) img.skyline {
+    display:none; 
+  }
 }
 /*IMAGE 2*/
 @media only screen and (min-width: 600pt) and (max-width: 834pt) { 
@@ -387,6 +434,10 @@ span.plastic img{
     height: auto;
   }
   span.small:nth-child(2) img.animation {
+    display:none; 
+  }
+  span.small:nth-child(9) img.skyline,
+  span.small:nth-child(10) img.skyline {
     display:none; 
   }
 }  
@@ -537,6 +588,7 @@ span.plastic img{
   font-size: 8pt;
   line-height:30pt;
   text-transform: uppercase;
+  letter-spacing:2pt; 
 }
 .titlelast {
   font-size: 10pt;
@@ -557,17 +609,22 @@ ul {
 ul li {
   display: inline;
   color:Crimson; 
-  margin:10pt;   
+  margin:5pt;   
 }
 ul .skills,
 ul .skills a {
   display: inline;
   font-size: 16.5pt;
+  letter-spacing:1pt; 
+}
+@media only screen and (min-width: 414pt) and (max-width: 834pt) { 
+  .titlelast {
+    display:none;
+  }
 }
 /*SKILLS 1*/
-@media only screen and (max-width: 690pt) { 
+@media only screen and (max-width: 710pt) { 
   .title,
-  .titlelast,
   ul,
   ul li,
   ul .skills {
@@ -575,7 +632,7 @@ ul .skills a {
   }
 }
 /*SKILLS 2*/
-@media only screen and (min-width: 690pt) and (max-width: 834pt) { 
+@media only screen and (min-width: 710pt) and (max-width: 834pt) { 
   .title {
     margin-left:20pt; 
     margin-right:20pt; 
@@ -603,6 +660,7 @@ ul .skills a {
   padding-top:0pt; 
   padding-bottom:15pt; 
   text-align: center;
+  letter-spacing:1pt; 
 }
 .project-intro {
   font-size: 16pt;
@@ -684,28 +742,6 @@ ul .skills a {
     text-align: left;
   }
 }
-/*--------------------------------------------RESPONSIVE 1*/
-@media only screen and (min-width: 200pt) and (max-width: 600pt) { 
-  body {
-    margin: 0px 0px;
-  }
-}
-@media only screen and (min-width: 600pt) and (max-width: 834pt) { 
-  body {
-    margin: 0px 0px;
-  }
-}
-@media only screen and (min-width: 834pt)  { 
-  body {
-    margin: 0px 0px;
-  }
-}
-@media only screen and (min-width: 200pt) { 
-  .bar {
-    padding-top:20pt; 
-    padding-bottom:10pt; 
-  }
-}
 </style>
 
 
@@ -784,16 +820,16 @@ ul .skills a {
 </div></p>
 
 <div class="col-container">
-<span class="small"><img src="content/conditinalcity/3.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/4.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/6.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/10.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/11.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/17.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/22.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/23.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/25.jpeg"></span>
-<span class="small"><img src="content/conditinalcity/28.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/3.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/4.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/6.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/10.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/11.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/17.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/22.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/23.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/47.jpeg"></span>
+<span class="small"><img class="skyline" src="content/conditinalcity/46.jpeg"></span>
 </div>
 
 <div class="project-intro">These drawings are made with repetitions of visual conditions</div>
@@ -875,7 +911,7 @@ ul .skills a {
 <img class="onethird" src="content/sea/maquette/2.jpg">
 </div>
 
-<div class="chapter">Proces illustrations</div>
+<div class="chapter">Process illustrations</div>
 
 <div class="col-container">
 <span class="plastic"><img src="content/sea/illustraties/0.jpg"></span>
@@ -936,6 +972,7 @@ ul .skills a {
 <img class="wide" src="content/italy/2.png">
 </div>
 
+<p><a name="graphic"/>
 <div class="box-project">
 <div class="project">
 <span class="project-name">Way-finding icons</span>
@@ -946,7 +983,7 @@ ul .skills a {
 <span class="words">WayFinding Delft</span>
 </div>
 </div>
-</div>
+</div></p>
 
 <div class="firstchapter">Map experiments</div>
 
@@ -988,7 +1025,6 @@ ul .skills a {
 <div class="box-project">
 <div class="project">
 <span class="project-name">Ornaments</span>
-<span class="project-date">Summer 2012</span>
 <div class="keywords">
 <span class="words">Holiday</span>
 <span class="words">Notation</span>
@@ -1024,7 +1060,6 @@ ul .skills a {
 <div class="project">
 <span class="project-name">Responsive web educator</span>
 <span class="project-header">Royal Academy of Art The Hague</span>
-<span class="project-date">2008 - 2009</span>
 </div>
 </div>
 
@@ -1089,15 +1124,12 @@ ul .skills a {
 </tbody>
 </table>
 
-<div class="thesis">Master thesis: &ldquo;Conditional Animation - Designing with animation makes the design proces a lot easier and more efficient&rdquo;</div>
+<div class="thesis">Master thesis: &ldquo;Conditional Animation - Designing with animation makes the design process a lot easier and more efficient&rdquo;</div>
 
 <div class="bar">
 <div class="contact">
-<span class="about">© 2018</span>
-<span class="about">info[at]jvb.com</span>
-<span class="about">The Netherlands</span>
-<span class="about">Breda</span>
-<span class="about">06 245 27 440</span>
+<span class="about">© 2018 Jasper van Blokland</span>
+<span class="about">Font: Upgrade © TYPETR</span>
 </div>
 </div>
 
