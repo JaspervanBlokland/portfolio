@@ -221,6 +221,10 @@
 <img src="content/italy/0.png">
 <img src="content/italy/1.png">
 <img class="wide" src="content/italy/2.png">
+<img src="content/ornaments/0.jpg">
+<img src="content/ornaments/1.jpg">
+<img src="content/ornaments/2.jpg">
+<img src="content/ornaments/3.jpg">
 </div>
 
 <a name="graphic"/>
@@ -271,40 +275,6 @@
 <img src="content/croatia/5.jpeg">
 <img src="content/croatia/6.jpeg">
 <img src="content/croatia/7.jpeg">
-</div>
-
-<div class="box-project">
-<div class="project">
-<span class="project-name">Ornaments</span>
-<div class="keywords">
-<span class="words">Holiday</span>
-<span class="words">Notation</span>
-</div>
-</div>
-</div>
-
-<div class="col-container">
-<img src="content/ornaments/0.jpg">
-<img src="content/ornaments/1.jpg">
-<img src="content/ornaments/2.jpg">
-<img src="content/ornaments/3.jpg">
-<img src="content/ornaments/4.jpeg">
-<img src="content/ornaments/5.jpeg">
-<img src="content/ornaments/6.jpeg">
-<img src="content/ornaments/7.jpeg">
-</div>
-
-<div class="box-project">
-<div class="project">
-<span class="project-name">Comics</span>
-</div>
-</div>
-
-<div class="col-container">
-<img src="content/strip/0.jpg">
-<img src="content/strip/1.jpg">
-<img src="content/strip/2.jpg">
-<img src="content/strip/3.jpg">
 </div>
 
 <div class="box-project">
