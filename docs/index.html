@@ -92,7 +92,14 @@ span.about {
   margin:10pt; 
   letter-spacing:1pt; 
 } 
-@media only screen and (max-width: 470pt) { 
+@media only screen and (max-width: 414pt) { 
+  span.about:nth-child(2), 
+  span.about:nth-child(3), 
+  span.about:nth-child(4) {
+    display:none; 
+  }
+}
+@media only screen and (min-width: 414pt) and (max-width: 470pt) { 
   span.about:nth-child(3), 
   span.about:nth-child(4) {
     display:none; 
@@ -167,18 +174,18 @@ span.function {
   line-height:40pt; 
   letter-spacing:1pt; 
 }
-@media only screen and (min-width: 200pt) and (max-width: 580pt) { 
+@media only screen and (min-width: 200pt) and (max-width: 550pt) { 
   span.function {
     display:block; 
   } 
 }
-@media only screen and (max-width: 580pt) { 
+@media only screen and (max-width: 550pt) { 
   span.function {
     font-size: 25pt;
     line-height:34pt; 
   }
 }
-@media only screen and (min-width: 580pt)  { 
+@media only screen and (min-width: 550pt)  { 
   .box {
     margin-top:35pt; 
   }
@@ -194,8 +201,6 @@ span.function {
 .project-name,
 .project-header {
   font-size: 20pt;
-}
-.project-name {
   letter-spacing:1pt; 
 }
 .firstchapter,
@@ -361,9 +366,45 @@ img {
 span.plastic img{
   vertical-align:bottom;  
 }
+@media only screen and (max-width: 414pt) { 
+  video, 
+  img {
+    width:98%;
+    height: auto;
+    padding:0%; 
+    padding-top:5pt; 
+    padding-bottom:15pt; 
+  }
+  span.small video, 
+  span.small img {
+    width:100%;
+    height: auto;
+  }
+  img.wide{
+    width:100%;
+    height: auto;
+  }
+  span.full img {
+    width:100%;
+    height: auto;
+  } 
+  img.onethird {
+    width:100%;
+    height: auto;
+  }
+  img.onethird:nth-child(3){
+    display:none; 
+  }
 
-/*IMAGE 1*/
-@media only screen and (min-width: 200pt) and (max-width: 600pt) { 
+  span.small:nth-child(1) img.movement,
+  span.small:nth-child(2) img.movement,
+  span.small:nth-child(3) img.movement,
+  span.small:nth-child(4) img.movement,
+  span.small:nth-child(5) img.movement {
+    display:none; 
+  }
+}
+@media only screen and (min-width: 414pt) and (max-width: 600pt) { 
   .col-container {
     padding-left:2%;
     padding-right:2%;  
@@ -400,11 +441,14 @@ span.plastic img{
   span.small:nth-child(4) img.animation {
     display:none; 
   }
+  span.small:nth-child(2) img.movement,
+  span.small:nth-child(5) img.movement {
+    display:none; 
+  }
   span.small:nth-child(10) img.skyline {
     display:none; 
   }
 }
-/*IMAGE 2*/
 @media only screen and (min-width: 600pt) and (max-width: 834pt) { 
   .col-container {
     padding-left:2%;
@@ -436,12 +480,14 @@ span.plastic img{
   span.small:nth-child(2) img.animation {
     display:none; 
   }
+  span.small:nth-child(5) img.movement {
+    display:none; 
+  }
   span.small:nth-child(9) img.skyline,
   span.small:nth-child(10) img.skyline {
     display:none; 
   }
 }  
-/*IMAGE 3*/
 @media only screen and (min-width: 834pt)  { 
   .col-container {
     width:790pt;
@@ -488,11 +534,6 @@ span.plastic img{
   }
 }
 /*--------------------------------------------COLOR*/
-@media only screen and (max-width: 414px) {
-  body{
-    background-color:orange;
-  }
-}
 @media only screen and (min-width: 200pt) {
   .cover,
   .bar {
@@ -617,7 +658,7 @@ ul .skills a {
   font-size: 16.5pt;
   letter-spacing:1pt; 
 }
-@media only screen and (min-width: 414pt) and (max-width: 834pt) { 
+@media only screen and (min-width: 200pt) and (max-width: 834pt) { 
   .titlelast {
     display:none;
   }
@@ -670,7 +711,7 @@ ul .skills a {
 @media only screen and (min-width: 580pt)  { 
   .intro,
   .project-intro {
-    padding-bottom:40pt; 
+    padding-bottom:30pt; 
   }
 }
 @media only screen and (min-width: 200pt) and (max-width: 400pt) { 
@@ -678,7 +719,7 @@ ul .skills a {
   .project-intro {
     width:90%;
     margin:auto; 
-    padding-bottom:30pt;
+    padding-bottom:20pt;
   }
 }
 @media only screen and (min-width: 400pt) and (max-width: 500pt) { 
@@ -686,7 +727,7 @@ ul .skills a {
   .project-intro {
     width:370pt;
     margin:auto; 
-    padding-bottom:30pt;
+    padding-bottom:20pt;
   }
 }
 @media only screen and (min-width: 500pt) and (max-width: 600pt) { 
@@ -694,7 +735,7 @@ ul .skills a {
   .project-intro {
     width:400pt;
     margin:auto;
-    padding-bottom:30pt;
+    padding-bottom:20pt;
   }
 }
 @media only screen and (min-width: 600pt) and (max-width: 700pt) { 
@@ -711,7 +752,7 @@ ul .skills a {
     margin:auto; 
   }
   .project-intro {
-    padding-bottom:25pt; 
+    padding-bottom:15pt; 
   }  
 }
 @media only screen and (min-width: 834pt)  { 
@@ -721,7 +762,7 @@ ul .skills a {
     margin:auto; 
   }
   .project-intro {
-    padding-bottom:25pt; 
+    padding-bottom:15pt; 
   } 
 }
 /*--------------------------------------------THESIS*/
@@ -784,7 +825,7 @@ ul .skills a {
 <ul>
 <li><div class="skills"><span class="two">Team-player</span></div></li>
 <li><div class="skills"><span class="two">Communicator</span></div></li>
-<li><div class="skills"><span class="two">Enthusiastic entreperneur</span></div></li>
+<li><div class="skills"><span class="two">Enthusiastic entrepreneur</span></div></li>
 <li><div class="skills"><span class="two">Problem solver</span></div></li>
 <li><div class="skills"><span class="two">Brainstormer</span></div></li>
 </ul>
@@ -871,6 +912,14 @@ ul .skills a {
 </div>
 
 <div class="project-intro">Several parties were involved in this research. Testing and discussing the use of parametric animation with them made a great contribution to the research, which resulted in an application that will generate different designs based on formulated conditions.</div>
+
+<div class="col-container">
+<span class="small"><img class="movement" img src="content/animation/5.png"></span>
+<span class="small"><img class="movement" src="content/animation/6.png"></span> 
+<span class="small"><img class="movement" src="content/animation/4.png"></span> 
+<span class="small"><img class="movement" src="content/animation/7.png"></span>
+<span class="small"><img class="movement" src="content/animation/8.png"></span>
+</div>
 
 <p><a name="graphic"/>
 <div class="box-project">

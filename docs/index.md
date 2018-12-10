@@ -30,7 +30,7 @@
 
 - <div class="skills"><span class="two">Team-player</span></div>
 - <div class="skills"><span class="two">Communicator</span></div>
-- <div class="skills"><span class="two">Enthusiastic entreperneur</span></div>
+- <div class="skills"><span class="two">Enthusiastic entrepreneur</span></div>
 - <div class="skills"><span class="two">Problem solver</span></div>
 - <div class="skills"><span class="two">Brainstormer</span></div>
 
@@ -114,6 +114,14 @@
 </div>
 
 <div class="project-intro">Several parties were involved in this research. Testing and discussing the use of parametric animation with them made a great contribution to the research, which resulted in an application that will generate different designs based on formulated conditions.</div>
+
+<div class="col-container">
+<span class="small"><img class="movement" img src="content/animation/5.png"></span>
+<span class="small"><img class="movement" src="content/animation/6.png"></span> 
+<span class="small"><img class="movement" src="content/animation/4.png"></span> 
+<span class="small"><img class="movement" src="content/animation/7.png"></span>
+<span class="small"><img class="movement" src="content/animation/8.png"></span>
+</div>
 
 <a name="graphic"/>
 <div class="box-project">
