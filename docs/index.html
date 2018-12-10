@@ -211,6 +211,7 @@ span.function {
   letter-spacing:1pt; 
 }
 .words{
+  display:inline-block; 
   font-size: 12pt;
   margin-left:10pt; 
   letter-spacing:1pt; 
@@ -231,8 +232,34 @@ span.function {
   padding-bottom:10pt; 
   text-transform: capitalize;
 }
-/*PROJECT 1*/  
-@media only screen and (min-width: 200pt) and (max-width: 600pt) { 
+@media only screen and (max-width: 414pt) { 
+  .project-name,
+  .project-header {
+    letter-spacing:1pt;
+    display:block; 
+    width:100%; 
+    text-align:center; 
+    padding-bottom:5pt; 
+  }
+  .project-name{
+    padding-top:15pt;
+    padding-bottom:10pt;
+    font-size: 17pt;
+  }
+  .project-header{
+    font-size: 12pt;
+    padding-top:0pt;
+    padding-bottom:15pt;
+  }
+  .keywords {
+    display:none; 
+  }
+  .firstchapter,
+  .chapter {
+    display:none; 
+  }
+}
+@media only screen and (min-width: 414pt) and (max-width: 600pt) { 
   .projectfirst,
   .project {
     line-height:30pt;
@@ -263,9 +290,7 @@ span.function {
     margin-right:20pt; 
   } 
 }
-/*PROJECT 2*/  
 @media only screen and (min-width: 600pt) and (max-width: 834pt) { 
-  /*PROJECTFIRST*/  
   .projectfirst,
   .project {
     line-height:30pt;
@@ -289,7 +314,6 @@ span.function {
     margin-right:20pt; 
   }
 }
-/*PROJECT 3*/  
 @media only screen and (min-width: 834pt)  { 
   .projectfirst,
   .project {
@@ -309,6 +333,8 @@ span.function {
   }
   .keywords{
     display:block; 
+    overflow: hidden;
+    height:30pt; 
   }
   .firstchapter,
   .chapter {
