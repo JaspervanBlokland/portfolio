@@ -162,7 +162,6 @@
 <img class="onethird" src="content/sea/maquette/2.jpg">
 </div>
 
-
 <div class="chapter">Process illustrations</div>
 
 <div class="col-container">
