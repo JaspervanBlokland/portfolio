@@ -57,6 +57,13 @@
     font-weight:normal;
     font-style:normal
 }
+p {
+  display: block;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
 /*--------------------------------------------BODY*/
 @media only screen and (min-width: 200pt) and (max-width: 600pt) { 
   body {
@@ -131,7 +138,6 @@ sup {
   left:5pt; 
   font-size:16pt; 
 }
-/*COVER 1*/  
 @media only screen and (max-width: 414pt)  { 
   .website {
     font-size:14pt; 
@@ -149,7 +155,6 @@ sup {
     margin-right:10pt; 
   }
 }
-/*COVER 2*/  
 @media only screen and (min-width: 834pt)  { 
   .website {
     width:834pt;
@@ -219,11 +224,9 @@ span.function {
 .words:first-child{
   margin-left:20pt; 
 }  
+.firstchapter,
 .chapter {
   padding-top:20pt; 
-}
-.firstchapter{
-  padding-top:10pt;   
 }
 .projectlast .titlelast {
   font-size: 16pt;
@@ -354,7 +357,6 @@ table {
     display:none; 
   }
 }
-/*TABLE 3*/    
 @media only screen and (min-width: 834pt)  { 
   table {
     width:790pt;
@@ -398,7 +400,7 @@ span.plastic img{
     width:98%;
     height: auto;
     padding:0%; 
-    padding-top:5pt; 
+    padding-top:0pt; 
     padding-bottom:15pt; 
   }
   span.small video, 
@@ -421,7 +423,6 @@ span.plastic img{
   img.onethird:nth-child(3){
     display:none; 
   }
-
   span.small:nth-child(1) img.movement,
   span.small:nth-child(2) img.movement,
   span.small:nth-child(3) img.movement,
@@ -689,7 +690,6 @@ ul .skills a {
     display:none;
   }
 }
-/*SKILLS 1*/
 @media only screen and (max-width: 710pt) { 
   .title,
   ul,
@@ -698,7 +698,6 @@ ul .skills a {
     display:none;
   }
 }
-/*SKILLS 2*/
 @media only screen and (min-width: 710pt) and (max-width: 834pt) { 
   .title {
     margin-left:20pt; 
@@ -765,26 +764,19 @@ ul .skills a {
   }
 }
 @media only screen and (min-width: 600pt) and (max-width: 700pt) { 
-  .intro,
+  .intro {
+    width:100%;
+    margin:auto;  
+  }
   .project-intro {
     width:500pt;
     margin:auto; 
   }
 }
-@media only screen and (min-width: 700pt) and (max-width: 834pt) { 
+@media only screen and (min-width: 700pt)  { 
   .intro,
   .project-intro {
-    width:600pt;
-    margin:auto; 
-  }
-  .project-intro {
-    padding-bottom:15pt; 
-  }  
-}
-@media only screen and (min-width: 834pt)  { 
-  .intro,
-  .project-intro {
-    width:620pt;
+    width:650pt;
     margin:auto; 
   }
   .project-intro {
@@ -797,7 +789,6 @@ ul .skills a {
     display:none; 
   }
 }
-/*THESIS 2*/
 @media only screen and (min-width: 834pt)  { 
   .thesis {
     font-size: 12pt;
