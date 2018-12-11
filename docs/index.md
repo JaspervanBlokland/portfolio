@@ -258,7 +258,7 @@
 
 <div class="box-project">
 <div class="project">
-<span class="project-name">Croatia holiday</span>
+<span class="project-name">Croatia</span>
 <div class="keywords">
 <span class="words">Holiday</span>
 <span class="words">Notation</span>
