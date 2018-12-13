@@ -13,7 +13,7 @@
 
 <div class="contact">
 <span class="about">© 2018</span>
-<span class="about">info[at]jvb.com</span>
+<span class="about"></span>
 <span class="about">The Netherlands</span>
 <span class="about">Breda</span>
 <span class="about">06 245 27 440</span>
