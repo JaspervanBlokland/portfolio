@@ -109,12 +109,14 @@
 <div class="chapter">Conditional generated animations</div>
 
 <div class="col-container">
-<span class="small"><video src="content/animation/mov/5.mp4" type="video/mp4" no-controls loop autoplay></video></span>
-<span class="small"><video src="content/animation/mov/6.mp4" type="video/mp4" no-controls loop autoplay></video></span>
-<span class="small"><video src="content/animation/mov/7.mp4" type="video/mp4" no-controls loop autoplay></video></span>
-<span class="small"><video src="content/animation/mov/8.mp4" type="video/mp4" no-controls loop autoplay></video></span>
-<span class="small"><video src="content/animation/mov/9.mp4" type="video/mp4" no-controls loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/5.mp4" type="video/mp4" no-controls loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/6.mp4" type="video/mp4" no-controls loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/7.mp4" type="video/mp4" no-controls loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/8.mp4" type="video/mp4" no-controls loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/9.mp4" type="video/mp4" no-controls loop autoplay></video></span>
 </div>
+
+<div class="project-intro">Several parties were involved in this research. Testing and discussing the use of parametric animation with them made a great contribution to the research, which resulted in an application that will generate different designs based on formulated conditions.</div>
 
 <div class="chapter">Process illustrations</div>
 
@@ -122,8 +124,6 @@
 <img class="wide" src="content/animation/2.jpg"> 
 <img class="wide" src="content/animation/3.jpg">
 </div>
-
-<div class="project-intro">Several parties were involved in this research. Testing and discussing the use of parametric animation with them made a great contribution to the research, which resulted in an application that will generate different designs based on formulated conditions.</div>
 
 <div class="col-container">
 <span class="small"><img class="movement" img src="content/animation/5.png"></span>
@@ -188,7 +188,7 @@
 </div>
 </div>
 
-<div class="firstchapter">Conditional generated poster</div>
+<div class="firstchapter">Conditional generated posters</div>
 
 <div class="col-container">
 <span class="small"><img class="animation" src="content/conditional/0.png"></span>

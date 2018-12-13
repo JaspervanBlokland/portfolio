@@ -110,7 +110,7 @@ span.about {
     display:none; 
   }
 }
-@media only screen and (min-width: 414pt) and (max-width: 470pt) { 
+@media only screen and (min-width: 414pt) and (max-width: 510pt) { 
   span.about:nth-child(3), 
   span.about:nth-child(4) {
     display:none; 
@@ -353,6 +353,9 @@ span.function {
     margin-top:20pt; 
   }
 }
+/*--------------------------------------------KEYWORDS*/    
+
+
 /*--------------------------------------------TABLE*/    
 table {
   border-collapse: collapse;
@@ -470,7 +473,9 @@ span.plastic img{
     display:none; 
   }
   span.small:nth-child(2) img.animation,
-  span.small:nth-child(4) img.animation {
+  span.small:nth-child(4) img.animation,
+  span.small:nth-child(2) video.animation,
+  span.small:nth-child(4) video.animation {
     display:none; 
   }
   span.small:nth-child(2) img.movement,
@@ -509,7 +514,8 @@ span.plastic img{
     width: 30.9%;
     height: auto;
   }
-  span.small:nth-child(2) img.animation {
+  span.small:nth-child(2) img.animation,
+  span.small:nth-child(2) video.animation {
     display:none; 
   }
   span.small:nth-child(5) img.movement {
@@ -647,14 +653,14 @@ span.plastic img{
   .project-header {
     font-family: Upgrade-Book;
   }
-  .firstchapter,
-  .chapter,
   .words,
   .thesis,
   table td:nth-child(2), 
   table td:last-child {
     font-family: Upgrade-Book;
   }
+  .firstchapter,
+  .chapter,
   .projectlast,
   span.about,
   ul .skills {
@@ -936,12 +942,14 @@ ul .skills a {
 <div class="chapter">Conditional generated animations</div>
 
 <div class="col-container">
-<span class="small"><video src="content/animation/mov/5.mp4" type="video/mp4" no-controls loop autoplay></video></span>
-<span class="small"><video src="content/animation/mov/6.mp4" type="video/mp4" no-controls loop autoplay></video></span>
-<span class="small"><video src="content/animation/mov/7.mp4" type="video/mp4" no-controls loop autoplay></video></span>
-<span class="small"><video src="content/animation/mov/8.mp4" type="video/mp4" no-controls loop autoplay></video></span>
-<span class="small"><video src="content/animation/mov/9.mp4" type="video/mp4" no-controls loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/5.mp4" type="video/mp4" no-controls loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/6.mp4" type="video/mp4" no-controls loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/7.mp4" type="video/mp4" no-controls loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/8.mp4" type="video/mp4" no-controls loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/9.mp4" type="video/mp4" no-controls loop autoplay></video></span>
 </div>
+
+<div class="project-intro">Several parties were involved in this research. Testing and discussing the use of parametric animation with them made a great contribution to the research, which resulted in an application that will generate different designs based on formulated conditions.</div>
 
 <div class="chapter">Process illustrations</div>
 
@@ -949,8 +957,6 @@ ul .skills a {
 <img class="wide" src="content/animation/2.jpg"> 
 <img class="wide" src="content/animation/3.jpg">
 </div>
-
-<div class="project-intro">Several parties were involved in this research. Testing and discussing the use of parametric animation with them made a great contribution to the research, which resulted in an application that will generate different designs based on formulated conditions.</div>
 
 <div class="col-container">
 <span class="small"><img class="movement" img src="content/animation/5.png"></span>
@@ -1015,7 +1021,7 @@ ul .skills a {
 </div>
 </div></p>
 
-<div class="firstchapter">Conditional generated poster</div>
+<div class="firstchapter">Conditional generated posters</div>
 
 <div class="col-container">
 <span class="small"><img class="animation" src="content/conditional/0.png"></span>
