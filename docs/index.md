@@ -1,7 +1,7 @@
 <div class="cover">
 <div class="website">Curriculum Vitae</div> 
 
-<span class="pdf">[Download CV](content/cv/Curriculum_Vitae-Jasper_van_Blokland.pdf)</span>
+<span class="pdf">[Download CV](content/cv/cv.pdf)</span>
 
 <div class="name">Jasper van Blokland<sup>MA</sup></div>
 
