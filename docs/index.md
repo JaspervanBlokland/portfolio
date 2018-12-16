@@ -1,5 +1,7 @@
 <div class="cover">
-<div class="website">Curriculum Vitae</div>
+<div class="website">Curriculum Vitae</div> 
+
+<span class="pdf">[PDF CV](content/cv/Curriculum_Vitae-Jasper_van_Blokland.pdf)</span>
 
 <div class="name">Jasper van Blokland<sup>MA</sup></div>
 
@@ -53,7 +55,6 @@
 <span class="keywords">
 <span class="words">Illustrations</span>
 <span class="words">Conditions</span>
-<span class="words">Try & Error</span>
 <span class="words">Repetition</span>
 <span class="words">Black & White</span>
 <span class="words">Fineliner</span>
@@ -178,24 +179,6 @@
 <span class="plastic"><img src="content/sea/illustraties/0.jpg"></span>
 <span class="plastic"><img src="content/sea/illustraties/1.jpg"></span>
 <span class="plastic"><img class="wide" src="content/sea/illustraties/2.jpg"></span>
-</div>
-
-<a name="conditional"/>
-<div class="box-project">
-<div class="project">
-<span class="project-name">Conditional design</span>
-<span class="project-header">Avans University of Applied Science</span>
-</div>
-</div>
-
-<div class="firstchapter">Conditional generated posters</div>
-
-<div class="col-container">
-<span class="small"><img class="animation" src="content/conditional/0.png"></span>
-<span class="small"><img class="animation" src="content/conditional/1.png"></span>
-<span class="small"><img class="animation" src="content/conditional/2.png"></span>
-<span class="small"><img class="animation" src="content/conditional/3.png"></span>
-<span class="small"><img class="animation" src="content/conditional/4.png"></span>
 </div>
 
 <div class="box-project">
