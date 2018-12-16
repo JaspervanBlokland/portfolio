@@ -66,6 +66,13 @@ a:hover {
   text-decoration: none;  
 }
 /*--------------------------------------------BODY*/
+body {
+  font-feature-settings: "ss09" 1;
+  font-variant-numeric: tabular-nums;
+  -moz-font-feature-settings: "tnum";
+  -webkit-font-feature-settings: "tnum";
+  font-feature-settings: "tnum";
+}
 @media only screen and (min-width: 200pt) and (max-width: 600pt) { 
   body {
     margin: 0px 0px;
@@ -639,14 +646,14 @@ span.plastic img{
   .chapter,
   .project-intro,
   .projectlast,
-  table td:nth-child(3),
+  table td:nth-child(1),
   table td:nth-child(2),
+  table td:nth-child(3),
   table td:nth-child(4),
   table td:last-child {
     color:#113A73; 
   }
-  span.header,
-  table td:first-child {
+  span.header {
     color:dimgray; 
   }
 } 
