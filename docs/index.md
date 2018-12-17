@@ -206,9 +206,10 @@
 <div class="chapter">Side Kick Color Application</div>
 
 <div class="col-container">
-<span class="app"><img class="onethird" src="content/conditional/app/0.png"></span>
-<span class="app"><img class="onethird" src="content/conditional/app/1.png"></span>
-<span class="app"><img class="onethird" src="content/conditional/app/2.png"></span>
+<span class="app"><img src="content/conditional/app/0.png"></span>
+<span class="app"><img src="content/conditional/app/1.png"></span>
+<span class="app"><img src="content/conditional/app/2.png"></span>
+<span class="app"><img src="content/conditional/app/3.png"></span>
 </div>
 
 <div class="project-intro">Each design process contains a production process, characterized by repetitive actions. By automating this part of the design process, the designer gets more time to focus on designing rather than producing.</div>
