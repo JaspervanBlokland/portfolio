@@ -213,7 +213,7 @@
 
 <div class="project-intro">Each design process contains a production process, characterized by repetitive actions. By automating this part of the design process, the designer gets more time to focus on designing rather than producing.</div>
 
-<div class="chapter">Process illustrations</div>
+<div class="chapter">Conditional illustrations</div>
 
 <div class="col-container">
 <img src="content/conditional/illustrations/2.png"> 
