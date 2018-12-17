@@ -216,11 +216,40 @@
 <div class="chapter">Process illustrations</div>
 
 <div class="col-container">
-<img src="content/conditional/illustrations/0.png"> 
-<img src="content/conditional/illustrations/1.png"> 
 <img src="content/conditional/illustrations/2.png"> 
-<img src="content/conditional/illustrations/3.png"> 
-<span class="full"><img src="content/conditional/illustrations/4.jpeg"></span>
+<img src="content/conditional/illustrations/4.png"> 
+<img src="content/conditional/illustrations/6.png"> 
+<img src="content/conditional/illustrations/7.png"> 
+<span class="full"><img src="content/conditional/illustrations/8.jpeg"></span>
+</div>
+
+<a name="graphic"/>
+<div class="box-project">
+<div class="project">
+<span class="project-name">Way-finding icons</span>
+<span class="project-header">Avans University of Applied Science</span>
+<div class="keywords">
+<span class="words">Illustration</span>
+<span class="words">Identity</span>
+<span class="words">WayFinding Delft</span>
+</div>
+</div>
+</div>
+
+<div class="firstchapter">Map experiments</div>
+
+<div class="col-container">
+<img class="wide" src="content/icons/map/0.png">
+<img class="wide" src="content/icons/map/1.png">
+</div>
+
+<div class="chapter">Pictogram illustrations</div>
+
+<div class="col-container">
+<img src="content/icons/0.jpg">
+<img src="content/icons/1.jpg">
+<img src="content/icons/2.jpg">
+<img src="content/icons/3.jpg">
 </div>
 
 <div class="box-project">
@@ -278,35 +307,6 @@
 <img src="content/ornaments/1.jpg">
 <img src="content/ornaments/2.jpg">
 <img src="content/ornaments/3.jpg">
-</div>
-
-<a name="graphic"/>
-<div class="box-project">
-<div class="project">
-<span class="project-name">Way-finding icons</span>
-<span class="project-header">Avans University of Applied Science</span>
-<div class="keywords">
-<span class="words">Illustration</span>
-<span class="words">Identity</span>
-<span class="words">WayFinding Delft</span>
-</div>
-</div>
-</div>
-
-<div class="firstchapter">Map experiments</div>
-
-<div class="col-container">
-<img class="wide" src="content/icons/map/0.png">
-<img class="wide" src="content/icons/map/1.png">
-</div>
-
-<div class="chapter">Pictogram illustrations</div>
-
-<div class="col-container">
-<img src="content/icons/0.jpg">
-<img src="content/icons/1.jpg">
-<img src="content/icons/2.jpg">
-<img src="content/icons/3.jpg">
 </div>
 
 <div class="box-project">
