@@ -181,6 +181,48 @@
 <span class="plastic"><img class="wide" src="content/sea/illustraties/2.jpg"></span>
 </div>
 
+<a name="conditional"/>
+<div class="box-project">
+<div class="project">
+<span class="project-name">Conditional design</span>
+<div class="keywords">
+<span class="words">Bachelor Graphic Design</span>
+</div>
+</div>
+</div>
+
+<div class="firstchapter">Generated conditional posters</div>
+
+<div class="col-container">
+<span class="small"><img class="animation" src="content/conditional/0.png"></span>
+<span class="small"><img class="animation" src="content/conditional/1.png"></span>
+<span class="small"><img class="animation" src="content/conditional/2.png"></span>
+<span class="small"><img class="animation" src="content/conditional/3.png"></span>
+<span class="small"><img class="animation" src="content/conditional/4.png"></span>
+</div>
+
+<div class="project-intro">Over the years I've developed two applications – one generates colour variations, while the other creates alternative designs based on the design that you provide. Although these two applications are different, the similarity is that both generate lots of divergent results within a short period of time.</div>
+
+<div class="chapter">Side Kick Color Application</div>
+
+<div class="col-container">
+<span class="app"><img class="onethird" src="content/conditional/app/0.png"></span>
+<span class="app"><img class="onethird" src="content/conditional/app/1.png"></span>
+<span class="app"><img class="onethird" src="content/conditional/app/2.png"></span>
+</div>
+
+<div class="project-intro">Each design process contains a production process, characterized by repetitive actions. By automating this part of the design process, the designer gets more time to focus on designing rather than producing.</div>
+
+<div class="chapter">Process illustrations</div>
+
+<div class="col-container">
+<img src="content/conditional/illustrations/0.png"> 
+<img src="content/conditional/illustrations/1.png"> 
+<img src="content/conditional/illustrations/2.png"> 
+<img src="content/conditional/illustrations/3.png"> 
+<span class="full"><img src="content/conditional/illustrations/4.jpeg"></span>
+</div>
+
 <div class="box-project">
 <div class="project">
 <span class="project-name">Stereotype Scientists</span>
