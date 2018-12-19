@@ -117,7 +117,20 @@
 <span class="small"><video class="animation" src="content/animation/mov/9.mp4" type="video/mp4" no-controls loop autoplay></video></span>
 </div>
 
+
 <div class="project-intro">Several parties were involved in this research. Testing and discussing the use of parametric animation with them made a great contribution to the research, which resulted in an application that will generate different designs based on formulated conditions.</div>
+
+<!---
+<div class="chapter">Conditional Animated Layout Models</div>
+
+<div class="col-container">
+<span class="small"><img class="animation" src="content/animation/mov/model/0.gif"></span>
+<span class="small"><img class="animation" src="content/animation/mov/model/0.gif"></span>
+<span class="small"><img class="animation" src="content/animation/mov/model/0.gif"></span>
+<span class="small"><img class="animation" src="content/animation/mov/model/0.gif"></span>
+<span class="small"><img class="animation" src="content/animation/mov/model/0.gif"></span>
+</div>
+-->
 
 <div class="chapter">Process illustrations</div>
 
@@ -214,7 +227,7 @@
 
 <div class="project-intro">Each design process contains a production process, characterized by repetitive actions. By automating this part of the design process, the designer gets more time to focus on designing rather than producing.</div>
 
-<div class="chapter">Conditional illustrations</div>
+<div class="chapter">Conditional portrait illustrations</div>
 
 <div class="col-container">
 <img src="content/conditional/illustrations/2.png"> 
