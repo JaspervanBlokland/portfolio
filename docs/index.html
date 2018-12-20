@@ -428,7 +428,6 @@ span.plastic img{
   vertical-align:bottom;  
 }
 span.app img {
-  border: 0.1pt solid #113A73;
   padding:0pt; 
   margin:3pt; 
 }
@@ -441,10 +440,9 @@ video.animation {
   }
   video, 
   img {
-    padding:10pt;
-    padding:0%; 
-    padding-top:10pt; 
-    padding-bottom:10pt; 
+    padding:0pt;
+    margin-top:10pt; 
+    margin-bottom:10pt; 
   }
   video, 
   img,
@@ -477,9 +475,9 @@ video.animation {
   img {
     width:47%;
     height: auto;
-    padding:1%; 
-    padding-top:5pt; 
-    padding-bottom:5pt; 
+    margin:1%; 
+    margin-top:5pt; 
+    margin-bottom:5pt; 
   }
   span.small video, 
   span.small img {
@@ -524,7 +522,8 @@ video.animation {
   img {
     width:22.6%;
     height: auto;
-    padding:1%; 
+    margin-left:4pt;
+    margin-right:5pt;
   }
   span.small video, 
   span.small img {
@@ -562,8 +561,9 @@ video.animation {
   }
   video,
   img {
-    padding:5pt; 
     width:23.4%;
+    margin-left:4pt;
+    margin-right:5pt;
     height: auto;
   }
   span.small:first-child img.movement,
@@ -607,7 +607,10 @@ video.animation {
  .pdf:hover {
     border: 1pt solid white;
   }
-
+  span.small img.animation,
+  span.app img {
+    border: 0.1pt solid #113A73;
+  }
 }
 /*--------------------------------------------COLOR*/
 @media only screen and (min-width: 200pt) {
