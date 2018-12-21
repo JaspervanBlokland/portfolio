@@ -244,6 +244,8 @@
 <span class="full"><img src="content/conditional/illustrations/8.jpeg"></span>
 </div>
 
+<div class="sub">Conditional portraits with different types of line weight</div>
+
 <a name="graphic"/>
 <div class="box-project">
 <div class="project">
