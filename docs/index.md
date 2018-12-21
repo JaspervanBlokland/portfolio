@@ -197,6 +197,8 @@
 <span class="plastic"><img class="wide" src="content/sea/illustraties/2.jpg"></span>
 </div>
 
+<div class="sub">Illustrations of the global plastic pollution</div>
+
 <a name="conditional"/>
 <div class="box-project">
 <div class="project">
@@ -262,8 +264,9 @@
 <div class="firstchapter">Map experiments</div>
 
 <div class="col-container">
-<img class="wide" src="content/icons/map/0.png">
-<img class="wide" src="content/icons/map/1.png">
+<img class="onethird" src="content/icons/map/4.jpg">
+<img class="onethird" src="content/icons/map/2.jpg">
+<img class="onethird" src="content/icons/map/3.jpg">
 </div>
 
 <div class="chapter">Pictogram illustrations</div>
