@@ -251,7 +251,7 @@
 <a name="graphic"/>
 <div class="box-project">
 <div class="project">
-<span class="project-name">Way-finding icons</span>
+<span class="project-name">Way-finding</span>
 <span class="project-header">Avans University of Applied Science</span>
 <div class="keywords">
 <span class="words">Illustration</span>
@@ -264,9 +264,11 @@
 <div class="firstchapter">Map experiments</div>
 
 <div class="col-container">
-<img class="onethird" src="content/icons/map/4.jpg">
+<img class="wide" src="content/icons/map/0.png">
+<img class="wide" src="content/icons/map/4.jpg">
 <img class="onethird" src="content/icons/map/2.jpg">
 <img class="onethird" src="content/icons/map/3.jpg">
+<img class="onethird" src="content/icons/map/5.jpg">
 </div>
 
 <div class="chapter">Pictogram illustrations</div>
