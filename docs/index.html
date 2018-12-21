@@ -131,11 +131,6 @@ span.about {
   font-size: 12px;
   border-radius: 12px;
 }
-
-.pdf:hover {
-
-}
-
 .cover{
   padding-top:30pt; 
 }
@@ -256,6 +251,14 @@ span.function {
   padding-bottom:10pt; 
   text-transform: capitalize;
 }
+.sub {
+  width:780pt;
+  margin:auto; 
+  margin-top:-7pt; 
+  padding-bottom:15pt; 
+  font-size: 8pt;
+  letter-spacing:1pt;   
+}
 @media only screen and (max-width: 460pt) { 
   .pdf {
     display:none; 
@@ -286,7 +289,10 @@ span.function {
     display:none; 
   }
   .chapter {
-    margin-top:20pt; 
+    margin-top:15pt; 
+  }
+  .sub {
+    display:none; 
   }
 }
 @media only screen and (min-width: 460pt) and (max-width: 600pt) { 
@@ -322,6 +328,9 @@ span.function {
   .chapter {
     margin-top:20pt; 
   }
+  .sub {
+    margin-left:20pt; 
+  }
 }
 @media only screen and (min-width: 600pt) and (max-width: 834pt) { 
   .projectfirst,
@@ -348,6 +357,9 @@ span.function {
   }
   .chapter {
     margin-top:20pt; 
+  }
+  .sub {
+    margin-left:20pt; 
   }
 }
 @media only screen and (min-width: 834pt)  { 
@@ -669,6 +681,7 @@ span.plastic img{
   table td:nth-child(3) {
     color:Crimson; 
   }
+  .sub,
   span.header {
     color:dimgray; 
   }
@@ -715,6 +728,9 @@ span.plastic img{
   ul .skills {
     font-family: Upgrade-Medium;
   }
+  .sub {
+    font-family: Upgrade-Regular;    
+  }
 }
 /*--------------------------------------------SKILLS */
 .title {
@@ -730,6 +746,7 @@ span.plastic img{
   margin-left:20pt; 
   margin-right:20pt; 
   text-transform: uppercase;
+  letter-spacing:1pt; 
 }
 ul {
   list-style: none;
@@ -1090,6 +1107,8 @@ ul .skills a {
 <span class="small"><img class="animation" src="content/conditional/4.png"></span>
 </div>
 
+<div class="sub">Generated outcomes with a conditional layout</div>
+
 <div class="project-intro">Over the years I&rsquo;ve developed two applications – one generates colour variations, while the other creates alternative designs based on the design that you provide. Although these two applications are different, the similarity is that both generate lots of divergent results within a short period of time.</div>
 
 <div class="chapter">Side Kick Color Application</div>
@@ -1100,6 +1119,8 @@ ul .skills a {
 <span class="app"><img src="content/conditional/app/2.png"></span>
 <span class="app"><img src="content/conditional/app/3.png"></span>
 </div>
+
+<div class="sub">Screenshots of the color application; the application generates a divergent of color variations</div>
 
 <div class="project-intro">Each design process contains a production process, characterized by repetitive actions. By automating this part of the design process, the designer gets more time to focus on designing rather than producing.</div>
 

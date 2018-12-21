@@ -215,6 +215,8 @@
 <span class="small"><img class="animation" src="content/conditional/4.png"></span>
 </div>
 
+<div class="sub">Generated outcomes with a conditional layout</div>
+
 <div class="project-intro">Over the years I've developed two applications – one generates colour variations, while the other creates alternative designs based on the design that you provide. Although these two applications are different, the similarity is that both generate lots of divergent results within a short period of time.</div>
 
 <div class="chapter">Side Kick Color Application</div>
@@ -225,6 +227,8 @@
 <span class="app"><img src="content/conditional/app/2.png"></span>
 <span class="app"><img src="content/conditional/app/3.png"></span>
 </div>
+
+<div class="sub">Screenshots of the color application; the application generates a divergent of color variations</div>
 
 <div class="project-intro">Each design process contains a production process, characterized by repetitive actions. By automating this part of the design process, the designer gets more time to focus on designing rather than producing.</div>
 
