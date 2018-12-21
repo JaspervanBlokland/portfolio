@@ -417,7 +417,7 @@ table {
     padding:10pt; 
   }
   table td:first-child {
-    width:16%; 
+    width:12%; 
     text-align:left;
     text-transform: uppercase;
     font-variant-numeric: tabular-nums;
@@ -426,17 +426,22 @@ table {
     font-feature-settings: "tnum";
   }
   table td:nth-child(2) {
-    width:23%; 
+    width:21%; 
     text-align:right;
   }
   table td:nth-child(3) {
-    width:15%; 
+    width:13%; 
     text-align:left;
   }
   table td:last-child {
     width:35%; 
     text-align:right;
   } 
+  table td:nth-child(2),
+  table td:nth-child(3),
+  table td:nth-child(4) {
+    letter-spacing:0.8pt; 
+  }
 }
 /*--------------------------------------------IMAGE*/
 .col-container {
