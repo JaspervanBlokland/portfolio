@@ -299,7 +299,6 @@
 <div class="box-project">
 <div class="project">
 <span class="project-name">Chaotic selfportraits</span>
-<span class="project-header">Avans University of Applied Science</span>
 <div class="keywords">
 <span class="words">Illustration</span>
 <span class="words">Self-portrait</span>
@@ -359,7 +358,6 @@
 <div class="box-project">
 <div class="project">
 <span class="project-name">Responsive web educator</span>
-<span class="project-header">Royal Academy of Art The Hague</span>
 </div>
 </div>
 
