@@ -170,6 +170,8 @@
 <img class="onethird" src="content/sea/expo/2.jpg">
 </div>
 
+<div class="sub">Graduation exposition AKV Sint Joost Breda - The Netherlands - 2016 June</div>
+
 <div class="project-intro">For the Graduation Bachelor Graphic Design I made an infographic about the plastic sea pollution, based on data and research by the Ocean Cleanup Rapport 2014</div>
 
 <div class="chapter">Pictogram illustrations</div>
