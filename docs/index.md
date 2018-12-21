@@ -261,11 +261,9 @@
 </div>
 </div>
 
-<div class="firstchapter">Map experiments</div>
+<div class="firstchapter">Way-finding experiments</div>
 
 <div class="col-container">
-<img class="wide" src="content/icons/map/0.png">
-<img class="wide" src="content/icons/map/4.jpg">
 <img class="onethird" src="content/icons/map/2.jpg">
 <img class="onethird" src="content/icons/map/3.jpg">
 <img class="onethird" src="content/icons/map/5.jpg">
