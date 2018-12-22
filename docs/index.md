@@ -19,7 +19,7 @@
 <span class="about"></span>
 <span class="about">The Netherlands</span>
 <span class="about">Breda</span>
-<span class="about">06 245 27 440</span>
+<span class="about"><span class="one">06 245 27 440</span></span>
 </div>
 
 <div class="title">Expertise</div>
@@ -79,7 +79,6 @@
 
 <div class="project-intro">These drawings are made with repetitions of visual conditions</div>
 
-<a name="motion"/>
 <div class="box-project">
 <div class="project">
 <span class="project-name">Conditional animation</span>
@@ -148,59 +147,7 @@
 <span class="small"><img class="movement" src="content/animation/8.png"></span>
 </div>
 
-<a name="graphic"/>
-<div class="box-project">
-<div class="project">
-<span class="project-name">Microplastic</span>
-<span class="project-header">Avans University of Applied Science</span>
-<div class="keywords">
-<span class="words">Bachelor Graphic Design</span>
-<span class="words">Identity</span>
-<span class="words">Infographic</span>
-<span class="words">Collaboration Ocean Cleanup</span>
-</div>
-</div>
-</div>
-
-<div class="firstchapter">Exposition Bachelor Graduation</div>
-
-<div class="col-container">
-<img class="onethird" src="content/sea/expo/0.jpg">
-<img class="onethird" src="content/sea/expo/1.jpg">
-<img class="onethird" src="content/sea/expo/2.jpg">
-</div>
-
-<div class="sub">Graduation exposition AKV Sint Joost Breda - The Netherlands - 2016 June</div>
-
-<div class="project-intro">For the Graduation Bachelor Graphic Design I made an infographic about the plastic sea pollution, based on data and research by the Ocean Cleanup Rapport 2014</div>
-
-<div class="chapter">Pictogram illustrations</div>
-
-<div class="col-container">
-<img class="wide" src="content/sea/picto1.png">
-<img class="wide" src="content/sea/picto2.png">
-</div>
-
-<div class="chapter">Maquette experiments</div>
-
-<div class="col-container">
-<img class="onethird" src="content/sea/maquette/0.jpg">
-<img class="onethird" src="content/sea/maquette/1.jpg">
-<img class="onethird" src="content/sea/maquette/2.jpg">
-</div>
-
-<div class="chapter">Process illustrations</div>
-
-<div class="col-container">
-<span class="plastic"><img src="content/sea/illustraties/0.jpg"></span>
-<span class="plastic"><img src="content/sea/illustraties/1.jpg"></span>
-<span class="plastic"><img class="wide" src="content/sea/illustraties/2.jpg"></span>
-</div>
-
-<div class="sub">Illustrations of the global plastic pollution</div>
-
-<a name="conditional"/>
-<div class="box-project">
+<div class="box-project">   
 <div class="project">
 <span class="project-name">Conditional design</span>
 <div class="keywords">
@@ -247,6 +194,63 @@
 </div>
 
 <div class="sub">Conditional portraits with different types of line weight</div>
+
+<div class="box-project">
+<div class="project">
+<span class="project-name">Microplastic</span>
+<span class="project-header">Avans University of Applied Science</span>
+<div class="keywords">
+<span class="words">Bachelor Graphic Design</span>
+<span class="words">Identity</span>
+<span class="words">Infographic</span>
+<span class="words">Collaboration Ocean Cleanup</span>
+</div>
+</div>
+</div>
+
+<div class="firstchapter">Exposition Bachelor Graduation</div>
+
+<div class="col-container">
+<img class="onethird" src="content/sea/expo/0.jpg">
+<img class="onethird" src="content/sea/expo/1.jpg">
+<img class="onethird" src="content/sea/expo/2.jpg">
+</div>
+
+<div class="sub">Graduation exposition AKV Sint Joost Breda - The Netherlands - 2016 June</div>
+
+<div class="chapter">Infographics about the sea pollution</div>
+
+<div class="col-container">
+<span class="plastic"><img class="wide" src="content/sea/infographic/0.jpg"></span>
+<span class="plastic"><span class="app"><img class="wide" src="content/sea/infographic/1.jpg"></span></span>
+</div>
+
+<div class="project-intro">For the Graduation Bachelor Graphic Design I made infographics about the plastic sea pollution, based on data and research by the Ocean Cleanup Rapport</div>
+
+<div class="chapter">Pictogram illustrations</div>
+
+<div class="col-container">
+<img class="wide" src="content/sea/picto1.png">
+<img class="wide" src="content/sea/picto2.png">
+</div>
+
+<div class="chapter">Maquette experiments</div>
+
+<div class="col-container">
+<img class="onethird" src="content/sea/maquette/0.jpg">
+<img class="onethird" src="content/sea/maquette/1.jpg">
+<img class="onethird" src="content/sea/maquette/2.jpg">
+</div>
+
+<div class="chapter">Process illustrations</div>
+
+<div class="col-container">
+<span class="plastic"><img src="content/sea/illustraties/0.jpg"></span>
+<span class="plastic"><img src="content/sea/illustraties/1.jpg"></span>
+<span class="plastic"><img class="wide" src="content/sea/illustraties/2.jpg"></span>
+</div>
+
+<div class="sub">Illustrations of the global plastic pollution</div>
 
 <a name="graphic"/>
 <div class="box-project">
@@ -315,6 +319,19 @@
 
 <div class="box-project">
 <div class="project">
+<span class="project-name">Responsive web educator</span>
+</div>
+</div>
+
+<div class="col-container">
+<img src="content/educator/0.jpg">
+<img src="content/educator/1.jpg">
+<img src="content/educator/2.jpg">
+<img src="content/educator/3.jpg">
+</div>
+
+<div class="box-project">
+<div class="project">
 <span class="project-name">Ornaments</span>
 <div class="keywords">
 <span class="words">Illustration</span>
@@ -353,19 +370,6 @@
 <img src="content/croatia/5.jpeg">
 <img src="content/croatia/6.jpeg">
 <img src="content/croatia/7.jpeg">
-</div>
-
-<div class="box-project">
-<div class="project">
-<span class="project-name">Responsive web educator</span>
-</div>
-</div>
-
-<div class="col-container">
-<img src="content/educator/0.jpg">
-<img src="content/educator/1.jpg">
-<img src="content/educator/2.jpg">
-<img src="content/educator/3.jpg">
 </div>
 
 <div class="projectlast">
