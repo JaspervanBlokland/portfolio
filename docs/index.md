@@ -256,7 +256,7 @@
 <div class="keywords">
 <span class="words">Illustration</span>
 <span class="words">Identity</span>
-<span class="words">WayFinding Delft</span>
+<span class="words">Way-finding Delft</span>
 </div>
 </div>
 </div>
@@ -264,9 +264,9 @@
 <div class="firstchapter">Way-finding experiments</div>
 
 <div class="col-container">
-<img class="onethird" src="content/icons/map/2.jpg">
-<img class="onethird" src="content/icons/map/3.jpg">
 <img class="onethird" src="content/icons/map/5.jpg">
+<img class="onethird" src="content/icons/map/3.jpg">
+<img class="onethird" src="content/icons/map/2.jpg">
 </div>
 
 <div class="chapter">Pictogram illustrations</div>
@@ -301,7 +301,7 @@
 <span class="project-name">Chaotic selfportraits</span>
 <div class="keywords">
 <span class="words">Illustration</span>
-<span class="words">Self-portrait</span>
+<span class="words">Selfportrait</span>
 </div>
 </div>
 </div>
