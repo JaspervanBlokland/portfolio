@@ -198,7 +198,7 @@
 <span class="full"><img src="content/conditional/illustrations/8.jpeg"></span>
 </div>
 
-<div class="sub">Conditional portraits with the condition structure</div>
+<div class="sub">Conditional portraits with different structures</div>
 
 <div class="box-project">
 <div class="project">
