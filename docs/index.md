@@ -183,17 +183,22 @@
 
 <div class="project-intro">Each design process contains a production process, characterized by repetitive actions. By automating this part of the design process, the designer gets more time to focus on designing rather than producing.</div>
 
-<div class="chapter">Conditional portrait illustrations</div>
+<div class="chapter">Portrait illustrations with different types of conditions</div>
 
 <div class="col-container">
 <img src="content/conditional/illustrations/2.png"> 
 <img src="content/conditional/illustrations/4.png"> 
 <img src="content/conditional/illustrations/6.png"> 
 <img src="content/conditional/illustrations/7.png"> 
+</div>
+
+<div class="sub">Conditional portraits with different contours</div>
+
+<div class="col-container">
 <span class="full"><img src="content/conditional/illustrations/8.jpeg"></span>
 </div>
 
-<div class="sub">Conditional portraits with different types of line weight</div>
+<div class="sub">Conditional portraits with the condition structure</div>
 
 <div class="box-project">
 <div class="project">
@@ -265,7 +270,14 @@
 </div>
 </div>
 
-<div class="firstchapter">Way-finding experiments</div>
+<div class="firstchapter">Infographics way-finding</div>
+
+<div class="col-container">
+<span class="plastic"><span class="app"><img class="wide" src="content/icons/map/4.jpg"></span></span>
+<span class="plastic"><span class="app"><img class="wide" src="content/icons/map/6.jpg"></span></span>
+</div>
+
+<div class="chapter">Way-finding experiments</div>
 
 <div class="col-container">
 <img class="onethird" src="content/icons/map/5.jpg">
