@@ -270,8 +270,6 @@
 </div>
 </div>
 
-<div class="firstchapter">Infographics about way-finding</div>
-
 <div class="col-container">
 <span class="plastic"><span class="app"><img class="wide" src="content/icons/map/4.jpg"></span></span>
 <span class="plastic"><span class="app"><img class="wide" src="content/icons/map/6.jpg"></span></span>
