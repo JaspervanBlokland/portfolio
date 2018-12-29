@@ -160,8 +160,6 @@
 
 <div class="project-intro">Over the years I've developed two applications – one generates colour variations, while the other creates alternative designs based on the design that you provide. Although these two applications are different, the similarity is that both generate lots of divergent results within a short period of time.</div>
 
-<div class="project-intro">I made several animation with formulated condtions</div>
-
 <div class="chapter">Side Kick Color Application</div>
 
 <div class="col-container">
