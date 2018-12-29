@@ -117,20 +117,10 @@
 <span class="small"><video class="animation" src="content/animation/mov/9.mp4" type="video/mp4" no-controls loop autoplay></video></span>
 </div>
 
+<div class="sub">Generated animation made with formulated global conditions - the position and color of the elements are variable</div>
+
 
 <div class="project-intro">Several parties were involved in this research. Testing and discussing the use of parametric animation with them made a great contribution to the research, which resulted in an application that will generate different designs based on formulated conditions.</div>
-
-<!---
-<div class="chapter">Conditional Animated Layout Models</div>
-
-<div class="col-container">
-<span class="small"><img class="animation" src="content/animation/mov/model/0.gif"></span>
-<span class="small"><img class="animation" src="content/animation/mov/model/0.gif"></span>
-<span class="small"><img class="animation" src="content/animation/mov/model/0.gif"></span>
-<span class="small"><img class="animation" src="content/animation/mov/model/0.gif"></span>
-<span class="small"><img class="animation" src="content/animation/mov/model/0.gif"></span>
-</div>
--->
 
 <div class="chapter">Process illustrations</div>
 
@@ -159,16 +149,18 @@
 <div class="firstchapter">Generated conditional posters</div>
 
 <div class="col-container">
-<span class="small"><img class="animation" src="content/conditional/0.png"></span>
-<span class="small"><img class="animation" src="content/conditional/1.png"></span>
-<span class="small"><img class="animation" src="content/conditional/2.png"></span>
-<span class="small"><img class="animation" src="content/conditional/3.png"></span>
-<span class="small"><img class="animation" src="content/conditional/4.png"></span>
+<span class="small"><img class="animation" src="content/conditional/house/0.gif"></span>
+<span class="small"><img class="animation" src="content/conditional/house/1.gif"></span>
+<span class="small"><img class="animation" src="content/conditional/house/2.gif"></span>
+<span class="small"><img class="animation" src="content/conditional/house/3.gif"></span>
+<span class="small"><img class="animation" src="content/conditional/house/4.png"></span>
 </div>
 
-<div class="sub">Generated outcomes with a conditional layout</div>
+<div class="sub">Generated animation made with formulated conditions - the positions of the elements are variable</div>
 
 <div class="project-intro">Over the years I've developed two applications – one generates colour variations, while the other creates alternative designs based on the design that you provide. Although these two applications are different, the similarity is that both generate lots of divergent results within a short period of time.</div>
+
+<div class="project-intro">I made several animation with formulated condtions</div>
 
 <div class="chapter">Side Kick Color Application</div>
 
@@ -403,4 +395,3 @@
 <span class="about">Font: Upgrade © TYPETR</span>
 </div>
 </div>
-x
