@@ -47,6 +47,7 @@
 - <div class="skills"><span class="three">Markdown</span></div> 
 - <div class="skills"><span class="three">Adobe</span></div>
 - <div class="skills"><span class="three">Sketch</span></div>
+- <div class="skills"><span class="three">Prototyping</span></div>
 </div>
 
 <a name="illustration"/>
