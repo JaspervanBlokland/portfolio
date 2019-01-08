@@ -114,8 +114,8 @@
 <span class="small"><video class="animation" src="content/animation/mov/5.mp4" type="video/mp4" no-controls loop autoplay></video></span>
 <span class="small"><video class="animation" src="content/animation/mov/6.mp4" type="video/mp4" no-controls loop autoplay></video></span>
 <span class="small"><video class="animation" src="content/animation/mov/7.mp4" type="video/mp4" no-controls loop autoplay></video></span>
-<span class="small"><video class="animation" src="content/animation/mov/8.mp4" type="video/mp4" no-controls loop autoplay></video></span>
-<span class="small"><video class="animation" src="content/animation/mov/9.mp4" type="video/mp4" no-controls loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/8.mov" type="video/mp4" no-controls loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/9.mov" type="video/mp4" no-controls loop autoplay></video></span>
 </div>
 
 <div class="sub">Generated animation made with formulated global conditions - the position and color of the elements are variable</div>
