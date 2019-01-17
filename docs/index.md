@@ -7,9 +7,9 @@
 <div class="name">Jasper van Blokland<sup>MA</sup></div>
 
 <div class="box">
-<span class="function">Designer</span>
-<span class="function">Educator</span>
-<span class="function">Programmer</span[]()>
+<span class="function">Animation</span>
+<span class="function">Illustration</span>
+<span class="function">Infographics</span[]()>
 </div>
 	
 <div class="intro">I am driven to simplify content into clear and understandable images</div>
@@ -21,13 +21,6 @@
 <span class="about">Breda</span>
 <span class="about"><span class="one">06 245 27 440</span></span>
 </div>
-
-<div class="title">Expertise</div>
-
-- <div class="skills"><span class="one">[Motion Design](#motion)</span></div>
-- <div class="skills"><span class="one">[Conditional Design](#conditional)</span></div> 
-- <div class="skills"><span class="one">[Illustration](#illustration)</span></div>
-- <div class="skills"><span class="one">[Graphic Design](#graphic)</span></div>
 
 ### <div class="title">Soft Skills</div>
 
@@ -111,11 +104,11 @@
 <div class="chapter">Conditional generated animations</div>
 
 <div class="col-container">
-<span class="small"><video class="animation" src="content/animation/mov/5.mp4" type="video/mp4" no-controls loop autoplay></video></span>
-<span class="small"><video class="animation" src="content/animation/mov/6.mp4" type="video/mp4" no-controls loop autoplay></video></span>
-<span class="small"><video class="animation" src="content/animation/mov/7.mp4" type="video/mp4" no-controls loop autoplay></video></span>
-<span class="small"><video class="animation" src="content/animation/mov/8.mov" type="video/mp4" no-controls loop autoplay></video></span>
-<span class="small"><video class="animation" src="content/animation/mov/9.mov" type="video/mp4" no-controls loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/5.mp4" type="video/mp4" loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/6.mp4" type="video/mp4"  loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/7.mp4" type="video/mp4" loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/8.mov" type="video/mp4" loop autoplay></video></span>
+<span class="small"><video class="animation" src="content/animation/mov/9.mov" type="video/mp4" loop autoplay></video></span>
 </div>
 
 <div class="sub">Generated animation made with formulated global conditions - the position and color of the elements are variable</div>
