@@ -16,7 +16,6 @@
 
 <div class="contact">
 <span class="about">© 2018</span>
-<span class="about"></span>
 <span class="about">The Netherlands</span>
 <span class="about">Breda</span>
 <span class="about"><span class="one">06 245 27 440</span></span>
@@ -143,11 +142,10 @@
 <div class="firstchapter">Generated conditional posters</div>
 
 <div class="col-container">
-<span class="small"><img class="animation" src="content/conditional/house/0.gif"></span>
-<span class="small"><img class="animation" src="content/conditional/house/1.gif"></span>
-<span class="small"><img class="animation" src="content/conditional/house/2.gif"></span>
-<span class="small"><img class="animation" src="content/conditional/house/3.gif"></span>
-<span class="small"><img class="animation" src="content/conditional/house/4.png"></span>
+<span><img class="animation" src="content/conditional/house/0.gif"></span>
+<span><img class="animation" src="content/conditional/house/1.gif"></span>
+<span><img class="animation" src="content/conditional/house/2.gif"></span>
+<span><img class="animation" src="content/conditional/house/3.gif"></span>
 </div>
 
 <div class="sub">Generated animation made with formulated conditions - the positions of the elements are variable</div>
